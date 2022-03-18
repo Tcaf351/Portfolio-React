@@ -81,7 +81,7 @@ const Home = () => {
 
 
         {/* Project section start */}
-        <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 text-gray-900 flex items-center justify-center relative snap-y'>
+        <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 text-gray-900 flex items-center justify-center relative'>
     
             {/* Glass Section Start */}
             <div className='bg-[#52ACE3] rounded-xl h-[80vh] w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-white relative sm:flex sm:items-center sm:justify-center '>
@@ -126,11 +126,11 @@ const Home = () => {
                 {/* top left corner of glass */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute sm:right-8 md:right-16 lg:right-20 xl:right-32 2xl:right-48 sm:top-44 z-10'></div>
+                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute sm:right-8 md:right-16 lg:right-20 xl:right-32 2xl:right-40 4xl:right-48 6xl:right-64 7xl:right-80 sm:top-44 z-10'></div>
                 {/* circle top right side end */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5B95FD] h-40 w-40 rounded-full absolute sm:left-4 md:left-12 lg:left-20 xl:left-28 2xl:left-44 bottom-56 z-10'></div>
+                <div className='bg-[#5B95FD] h-40 w-40 rounded-full absolute sm:left-4 md:left-12 lg:left-20 xl:left-28 2xl:left-44 4xl:left-56 6xl:left-72 7xl:left-96 bottom-56 z-10'></div>
                 {/* circle top right side end */}
 
         </div>
