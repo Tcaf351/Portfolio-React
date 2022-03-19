@@ -10,7 +10,7 @@ const Home = () => {
 
                 {/* animation blog start */}
                 <div className="flex items-center justify-center">
-                    <div className="relative flex items-center justify-between">
+                    <div className="relative flex items-center justify-between opacity-50">
                         <div className="absolute z-20 top-0 -left-10 h-72 w-72 bg-cyan-300 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
                         <div className="absolute z-20 top-0 -right-4 h-72 w-72 bg-[#5BFDB5] rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
                         <div className="absolute z-20 top-16 -right-32 h-72 w-72 bg-sky-400 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
@@ -69,47 +69,47 @@ const Home = () => {
                 </div>
     
                 <div className='flex items-center justify-center z-20'>
-                    <a href="https://github.com/Tcaf351" target="_blank" rel="noreferrer"><img className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 ease-in-out duration-300 rounded-full' src='/github.png' alt="github icon" /></a>
+                    <a href="https://github.com/Tcaf351" target="_blank" rel="noreferrer"><img className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-md hover:shadow-cyan-300 ease-in-out duration-300 rounded-full' src='/github.png' alt="github icon" /></a>
         
-                    <a href="https://au.linkedin.com/in/timothy-cafarella-a742731bb" target="_blank" rel="noreferrer"><img className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 ease-in-out duration-300 rounded-full'  src='/linkedin.png' alt="linkedin icon"></img></a>
+                    <a href="https://au.linkedin.com/in/timothy-cafarella-a742731bb" target="_blank" rel="noreferrer"><img className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-md hover:shadow-cyan-300 ease-in-out duration-300 rounded-full'  src='/linkedin.png' alt="linkedin icon"></img></a>
                 </div>
             </div>    
             {/* heading end */}
            
 
-            
+            <div className="py-32"></div>
 
 
         {/* Project section start */}
-        <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 text-gray-900 flex items-center justify-center relative'>
+        <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
-            <div className='bg-[#52ACE3] rounded-xl h-[80vh] w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-white relative sm:flex sm:items-center sm:justify-center '>
+            <div className='bg-[#52ACE3] rounded-xl sm:h-[80vh] lg:h-[75vh] w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-white relative sm:flex sm:items-center sm:justify-center '>
 
                     {/* content start */}
-                <div className="sm:flex sm:justify-center sm:flex-col xl:grid xl:grid-cols-3 xl:items-start sm:items-center sm:container text-center">
+                <div className="max-h-full sm:flex sm:justify-center sm:flex-col sm:items-center sm:container lg:grid lg:grid-cols-3 lg:items-start text-center">
 
-                    <div className="sm:my-5 xl:my-0 xl:flex xl:items-center xl:flex-col xl:justify-center">
+                    <div className="sm:flex sm:items-center sm:justify-center sm:my-2 xl:my-0 lg:flex lg:items-center lg:flex-col lg:justify-center">
                         <a href="https://weather-app-pi-eight-79.vercel.app/" target="_blank" rel="noreferrer"><img className="h-40 w-auto mx-1 rounded-lg xl:mt-5 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" src="/weatherApp.png" alt="weather app" /></a>
                         <div className="pt-2">
-                            <p>- Vanilla.JS</p>
+                            <p class="px-5">Vanilla.JS</p>
                         </div>
                     </div>
-                    <div className="sm:my-5 xl:flex xl:items-center xl:flex-col xl:justify-center">
+                    <div className="sm:my-2 sm:flex sm:items-center sm:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
                         <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer"><img className="h-40 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" src="/starWarsWiki.png" alt="star wars wiki app" /></a>
                         <div className="pt-2">
-                            <p>- React.JS</p>
-                            <p>- Express.JS</p>
-                            <p>- Node.JS</p>
-                            <p>- Firebase</p>
-                            <p>- Tailwind CSS</p>
+                            <p class="px-5">React.JS</p>
+                            <p class="px-5">Express.JS</p>
+                            <p class="px-5">Node.JS</p>
+                            <p class="px-5">Firebase</p>
+                            <p class="px-5">Tailwind CSS</p>
                         </div>
                     </div>
-                    <div className="sm:my-5 xl:flex xl:items-center xl:flex-col xl:justify-center">
+                    <div className="sm:my-2 sm:flex sm:items-center sm:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
                         <a href="https://crypto-api-mocha.vercel.app/" target="_blank" rel="noreferrer"><img className="h-52 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" src="/cryptoApi.png" alt="" /></a>
                         <div className="pt-2">
-                            <p>- React.JS</p>
-                            <p>- Tailwind CSS</p>
+                            <p class="px-5">React.JS</p>
+                            <p class="px-5">Tailwind CSS</p>
                         </div>
                     </div>
 
@@ -122,7 +122,7 @@ const Home = () => {
             
 
                 {/* top left corner of glass */}
-                <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:-top-3 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 7xl:left-56 z-10'>Projects</h1>
+                <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-5 lg:-top-2 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-10 7xl:left-56 z-10'>Projects</h1>
                 {/* top left corner of glass */}
 
                 {/* circle top right side start */}
@@ -137,12 +137,16 @@ const Home = () => {
         {/* Project section end */}
 
 
+        <div className="py-32"></div>
+        
+
+
         {/* Skills section start */}
         <div className='min-h-screen bg-gradient-to-tr from-slate-800 via-slate-600 to-slate-500 flex items-center justify-center relative'>
     
    
 
-                <div className="absolute flex items-center justify-around z-10">
+                <div className="absolute flex items-center justify-around z-10 opacity-60">
                     <div className="absolute z-10 h-56 w-56 xl:h-72 xl:w-72 sm:-left-10 bg-cyan-300 rounded-full mix-blend-multiply filter blur-lg animate-blob"></div>
                     <div className="absolute z-10 h-56 w-56 xl:h-72 xl:w-72 sm:-right-10 bg-[#5BFDB5] rounded-full mix-blend-multiply filter blur-lg animate-blob animation-delay-2000"></div>
                     <div className="absolute z-10 h-56 w-56 xl:h-72 xl:w-72 sm:-top-2 bg-sky-400 rounded-full mix-blend-multiply filter blur-lg animate-blob animation-delay-4000"></div>
@@ -150,55 +154,55 @@ const Home = () => {
                
 
             {/* glass panel start */}
-                <div className='bg-slate-500 rounded-xl h-[80vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid sm:grid-cols-1 grid-cols-3 text-center'>
+                <div className='bg-slate-500 rounded-xl lg:h-[75vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid sm:grid-cols-1 grid-cols-3 text-center lg:mt-8'>
                 
-                    <div className="sm:container xl:grid xl:grid-cols-3 my-auto text-center">
+                    <div className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
 
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-10'>
-                                <p className='text-lg xl:text-xl py-2'>I have skills in Javascript using the "FERN" stack which consists of</p>
-                                    <div className="sm:py-5 xl:text-xl">
-                                        <p>- Firebase</p> 
-                                        <p>- Express.JS</p>
-                                        <p>- React.JS</p>
-                                        <p>- Node.JS</p>
+                                <p className='text-md 2xl:text-xl py-2'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
+                                    <div className="sm:py-2 lg:py-4 2xl:text-xl">
+                                        <p>Firebase</p> 
+                                        <p>Express.JS</p>
+                                        <p>React.JS</p>
+                                        <p>Node.JS</p>
                                     </div>
-                                <p className="xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
+                                <p className="text-md 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
                             </div>
 
 
 
-                            <div className="my-14">
-                                <p className='sm:text-2xl xl:text-3xl py-3'>Front End</p>
+                            <div className="my-5">
+                                <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5 xl:text-lg">- React</p> 
-                                    <p className="sm:mx-5 xl:text-lg">- Svelte</p>       
+                                    <p className="sm:mx-5 xl:text-lg">React</p> 
+                                    <p className="sm:mx-5 xl:text-lg">Svelte</p>       
                                 </div>  
                             </div> 
 
-                            <div className="my-14">
-                                <p className='sm:text-2xl xl:text-3xl py-3'>Back End</p> 
+                            <div className="my-5">
+                                <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5 xl:text-lg">- Node.JS</p> 
-                                    <p className="sm:mx-5 xl:text-lg">- Express.JS</p> 
-                                    <p className="sm:mx-5 xl:text-lg">- Next.JS</p>
+                                    <p className="sm:mx-5 2xl:text-lg">Node.JS</p> 
+                                    <p className="sm:mx-5 2xl:text-lg">Express.JS</p> 
+                                    <p className="sm:mx-5 2xl:text-lg">Next.JS</p>
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="pt-2 sm:mx-5 xl:text-lg">- Firebase</p>
-                                    <p className="sm:pt-2 sm:mx-5 xl:text-lg">- MongoDB</p>
+                                    <p className="pt-2 sm:mx-5 2xl:text-lg">Firebase</p>
+                                    <p className="sm:pt-2 sm:mx-5 2xl:text-lg">MongoDB</p>
                                 </div>
 
                             </div>  
 
-                            <div className="my-14">
-                                <p className='sm:text-2xl xl:text-3xl py-2'>CSS</p>
+                            <div className="my-5">
+                                <p className='sm:text-xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5 xl:text-lg">- Tailwind Css</p> 
-                                    <p className="sm:mx-5 xl:text-lg">- Sass</p>
+                                    <p className="sm:mx-5 2xl:text-lg">Tailwind Css</p> 
+                                    <p className="sm:mx-5 2xl:text-lg">Sass</p>
                                 </div>
 
                             </div>  
@@ -213,41 +217,45 @@ const Home = () => {
             {/* glass panel end */}
 
             {/* top right corner of glass */}
-            <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:top-3 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 7xl:right-64 z-10'>Skills</h1>
+            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-8 md:top-12 lg:-top-1 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</h1>
             {/* top right corner of glass */}
 
         </div>
         {/* Skills section end */}
 
 
+        <div className="py-32"></div>
+
+
+
         {/* About section start */}
             <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 flex items-center justify-center relative'>
     
             {/* glass panel start */}
-            <div className='bg-[#111928] rounded-xl h-[80vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center'>
-                <div className="my-10">
-                    <p className='text-xl'>My name is Tim Cafarella and I began my journey in web development in early 2020 when I came across a video from a youtuber I watched freqently at the time of a friend of his building his website. I then checked out this coders youtube and was instantly mesmorised about the endless possibilities that you have with coding, and the man things that are possible to build with enough time and dedication. It was at this point that I knew web development was my next chapter for my journey.</p>
+            <div className='bg-[#111928] rounded-xl lg:h-[75vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>
+                <div className="2xl:my-10">
+                    <p className='text-md'>My name is Tim Cafarella and I began my journey in web development in early 2020 when I came across a video from a youtuber I watched freqently at the time of a friend of his building his website. I then checked out this coders youtube and was instantly mesmorised about the endless possibilities that you have with coding, and the man things that are possible to build with enough time and dedication. It was at this point that I knew web development was my next chapter for my journey.</p>
                 </div>
 
-                <div className="my-10">
-                    <p className='text-xl'>I am currently looking for a junior front end developer position to take my skills and abilities to the next level.</p>
+                <div className="2xl:my-10">
+                    <p className='text-md'>I am currently looking for a junior front end developer position to take my skills and abilities to the next level.</p>
                 </div> 
     
-                <div className="my-10">
-                    <p className='text-xl my-6'>I have completed a certificate IV of Information Technology (Web Development).</p>
-                    <p className="text-xl my-6">I am currently half way through a Diploma of Information Technology (Front End Web Development) with Diploma of Information Technology (Back End Web Development).</p>
-                    <p className="text-xl my-6">I will be finished with the diploma in early June.</p>
+                <div className="2xl:my-10">
+                    <p className='text-md my-6'>I have completed a certificate IV of Information Technology (Web Development).</p>
+                    <p className="text-md my-6">I am currently half way through a Diploma of Information Technology (Front End Web Development) with Diploma of Information Technology (Back End Web Development).</p>
+                    <p className="text-md my-6">I will be finished with the diploma in early June.</p>
                 </div>  
                 
             </div>
             {/* glass panel end */}
                 
             {/* top left corner of glass */}
-            <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:top-2 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 7xl:left-56 z-10'>About</h1>
+            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-9 lg:-top-1 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</h1>
             {/* top left corner of glass */}
     
             {/* circle bottom right side start */}
-            <div className='bg-cyan-300 h-64 w-64 rounded-full absolute sm:right-5 sm:bottom-8 lg:right-8 xl:right-20 2xl:right-24 3xl:right-36 4xl:right-44 5xl:right-52 6xl:right-60 7xl:right-72 z-10'></div>
+            <div className='bg-cyan-300 h-64 w-64 rounded-full absolute sm:right-5 sm:bottom-8 lg:right-8 lg:bottom-2 xl:right-20 2xl:right-24 3xl:right-36 4xl:right-44 5xl:right-52 6xl:right-60 7xl:right-72 z-10'></div>
             {/* circle bottom right side end */}
     
             {/* circle middle left side start */}
