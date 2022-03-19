@@ -20,43 +20,43 @@ const Home = () => {
 
                 <div className="relative flex items-center justify-around z-20 mb-10 text-left">
                     <div className='my-8 py-3'>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>H</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>i</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>,</span> <br />
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>H</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>i</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>,</span> <br />
 
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>I</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>'</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>m </span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>I</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>'</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>m </span>
 
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>T</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>i</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>m</span> <br />
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>T</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>i</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>m</span> <br />
 
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>F</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>r</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>o</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>n</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>t </span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>F</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>r</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>o</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>n</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>t </span>
 
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>E</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>n</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>d </span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>E</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>n</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>d </span>
 
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>W</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>e</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>b </span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>W</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>e</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>b </span>
 
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>D</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>e</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>v</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>e</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>l</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>o</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>p</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>e</span>
-                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-out duration-300'>r</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>D</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>e</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>v</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>e</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>l</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>o</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>p</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>e</span>
+                        <span className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-300'>r</span>
 
-                        <p className='text-sm text-gray-400'>CSS / JavaScript / React</p>
+                        <p className='text-sm text-gray-400 tracking-widest animate-pulse'>CSS / JavaScript / React</p>
             
                         <button className="mt-8 py-1 px-4 rounded-lg text-gray-100 bg-cyan-500 ease-in-out duration-500 hover:bg-blue-500"><a href="mailto:tcaf.351@gmail.com">Contact Me</a></button>
                     </div>
@@ -122,11 +122,11 @@ const Home = () => {
             
 
                 {/* top left corner of glass */}
-                <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:-top-3 z-10'>Projects</h1>
+                <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:-top-3 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 7xl:left-56 z-10'>Projects</h1>
                 {/* top left corner of glass */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute sm:right-8 md:right-16 lg:right-20 xl:right-32 2xl:right-40 4xl:right-48 6xl:right-64 7xl:right-80 sm:top-44 z-10'></div>
+                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute sm:right-8 md:right-16 lg:right-20 xl:right-24 2xl:right-40 4xl:right-48 6xl:right-64 7xl:right-80 sm:top-44 z-10'></div>
                 {/* circle top right side end */}
 
                 {/* circle top right side start */}
@@ -152,51 +152,53 @@ const Home = () => {
             {/* glass panel start */}
                 <div className='bg-slate-500 rounded-xl h-[80vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid sm:grid-cols-1 grid-cols-3 text-center'>
                 
-                    <div className="sm:container my-auto text-center">
+                    <div className="sm:container xl:grid xl:grid-cols-3 my-auto text-center">
 
 
-                            <div className='lg:col-span-3 sm:px-4'>
-                                <p className='text-lg py-2'>I have skills in Javascript using the "FERN" stack which consists of</p>
-                                    <div className="sm:py-5">
+                            <div className='lg:col-span-3 sm:px-4 xl:mb-10'>
+                                <p className='text-lg xl:text-xl py-2'>I have skills in Javascript using the "FERN" stack which consists of</p>
+                                    <div className="sm:py-5 xl:text-xl">
                                         <p>- Firebase</p> 
                                         <p>- Express.JS</p>
                                         <p>- React.JS</p>
                                         <p>- Node.JS</p>
                                     </div>
-                                <p>I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
+                                <p className="xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
                             </div>
 
+
+
                             <div className="my-14">
-                                <p className='text-2xl py-3'>Front End</p>
+                                <p className='sm:text-2xl xl:text-3xl py-3'>Front End</p>
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5">- React</p> 
-                                    <p className="sm:mx-5">- Svelte</p>       
+                                    <p className="sm:mx-5 xl:text-lg">- React</p> 
+                                    <p className="sm:mx-5 xl:text-lg">- Svelte</p>       
                                 </div>  
                             </div> 
 
                             <div className="my-14">
-                                <p className='text-2xl py-3'>Back End</p> 
+                                <p className='sm:text-2xl xl:text-3xl py-3'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5">- Node.JS</p> 
-                                    <p className="sm:mx-5">- Express.JS</p> 
-                                    <p className="sm:mx-5">- Next.JS</p>
+                                    <p className="sm:mx-5 xl:text-lg">- Node.JS</p> 
+                                    <p className="sm:mx-5 xl:text-lg">- Express.JS</p> 
+                                    <p className="sm:mx-5 xl:text-lg">- Next.JS</p>
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="pt-2 sm:mx-5">- Firebase</p>
-                                    <p className="sm:pt-2 sm:mx-5">- MongoDB</p>
+                                    <p className="pt-2 sm:mx-5 xl:text-lg">- Firebase</p>
+                                    <p className="sm:pt-2 sm:mx-5 xl:text-lg">- MongoDB</p>
                                 </div>
 
                             </div>  
 
                             <div className="my-14">
-                                <p className='text-2xl py-2'>CSS</p>
+                                <p className='sm:text-2xl xl:text-3xl py-2'>CSS</p>
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5">- Tailwind Css</p> 
-                                    <p className="sm:mx-5">- Sass</p>
+                                    <p className="sm:mx-5 xl:text-lg">- Tailwind Css</p> 
+                                    <p className="sm:mx-5 xl:text-lg">- Sass</p>
                                 </div>
 
                             </div>  
@@ -211,7 +213,7 @@ const Home = () => {
             {/* glass panel end */}
 
             {/* top right corner of glass */}
-            <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:top-3 z-10'>Skills</h1>
+            <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:top-3 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 7xl:right-64 z-10'>Skills</h1>
             {/* top right corner of glass */}
 
         </div>
@@ -241,7 +243,7 @@ const Home = () => {
             {/* glass panel end */}
                 
             {/* top left corner of glass */}
-            <h1 className='text-9xl text-cyan-300 opacity-20 absolute top-2 z-10'>About</h1>
+            <h1 className='text-9xl text-cyan-300 opacity-20 absolute sm:top-2 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 7xl:left-56 z-10'>About</h1>
             {/* top left corner of glass */}
     
             {/* circle bottom right side start */}
