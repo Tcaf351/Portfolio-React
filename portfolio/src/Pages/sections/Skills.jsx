@@ -77,7 +77,7 @@ const Skills= () => {
             {/* glass panel end */}
 
             {/* top right corner of glass */}
-            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-8 md:top-12 lg:-top-1 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</h1>
+            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-3 lg:-top-1 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</h1>
             {/* top right corner of glass */}
 
         </div>

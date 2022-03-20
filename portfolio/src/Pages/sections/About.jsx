@@ -5,7 +5,7 @@ const About = () => {
         <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 flex items-center justify-center relative text-gray-100'>
     
             {/* glass panel start */}
-            <div className='bg-[#111928] rounded-xl lg:h-[75vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>
+            <div className='bg-[#111928] rounded-xl sm:h-[80vh] lg:h-[75vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>
                 <div className="2xl:my-10">
                     <p className='text-md'>My name is Tim Cafarella and I began my journey in web development in early 2020 when I came across a video from a youtuber I watched freqently at the time of a friend of his building his website. I then checked out this coders youtube and was instantly mesmorised about the endless possibilities that you have with coding, and the man things that are possible to build with enough time and dedication. It was at this point that I knew web development was my next chapter for my journey.</p>
                 </div>
@@ -24,7 +24,7 @@ const About = () => {
             {/* glass panel end */}
                 
             {/* top left corner of glass */}
-            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-9 lg:-top-1 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</h1>
+            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-1 lg:-top-1 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</h1>
             {/* top left corner of glass */}
     
             {/* circle bottom right side start */}
