@@ -2,7 +2,7 @@
 
 const About = () => {
     return ( 
-        <div className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 flex items-center justify-center relative text-gray-100'>
+        <div id="about" className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 flex items-center justify-center relative text-gray-100'>
     
             {/* glass panel start */}
             <div className='bg-[#111928] rounded-xl sm:h-[80vh] lg:h-[75vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>

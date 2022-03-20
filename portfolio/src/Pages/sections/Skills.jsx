@@ -2,7 +2,7 @@
 
 const Skills= () => {
     return ( 
-        <div className='min-h-screen bg-gradient-to-tr from-slate-800 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
+        <div id="skills" className='min-h-screen bg-gradient-to-tr from-slate-800 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
     
    
 

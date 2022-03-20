@@ -3,29 +3,30 @@ import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 import About from './sections/About';
 
+
 const Home = () => {
     return ( 
     <div>
-        <Hero />
+        <Hero title="hero" />
            
         <div className="py-32"></div>
 
 
-        <Projects />
+        <Projects title="projects" />
 
 
         <div className="py-32"></div>
         
 
 
-        <Skills />
+        <Skills title="skills" />
 
 
         <div className="py-32"></div>
 
 
 
-        <About />
+        <About title="about" />
     
     
         </div>
