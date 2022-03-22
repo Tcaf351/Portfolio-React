@@ -1,4 +1,5 @@
-
+// packages
+import { motion } from 'framer-motion';
 
 const Skills= () => {
     return ( 
@@ -14,9 +15,15 @@ const Skills= () => {
                
 
             {/* glass panel start */}
-                <div className='bg-slate-500 rounded-xl lg:h-[75vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid sm:grid-cols-1 grid-cols-3 text-center lg:mt-8'>
+                <div
                 
-                    <div className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
+                className='bg-slate-500 rounded-xl lg:h-[75vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid sm:grid-cols-1 grid-cols-3 text-center lg:mt-8'>
+                
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ delay: 0.2 }}
+                    className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
 
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-10'>
@@ -68,7 +75,7 @@ const Skills= () => {
                             </div>  
 
                             
-                    </div>
+                    </motion.div>
 
 
                 
@@ -77,7 +84,9 @@ const Skills= () => {
             {/* glass panel end */}
 
             {/* top right corner of glass */}
-            <h1 className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-3 lg:-top-1 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</h1>
+            <motion.h1 
+            whileHover={{ opacity:0 }}
+            className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-3 lg:-top-1 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
             {/* top right corner of glass */}
 
         </div>

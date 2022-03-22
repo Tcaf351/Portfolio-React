@@ -89,9 +89,17 @@ const Hero = () => {
                             animate={{ y: 0 }}
                             transition={{ delay: 0.1 }}
                             >
-                    <a href="https://github.com/Tcaf351" target="_blank" rel="noreferrer"><img className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-md hover:shadow-cyan-300 ease-in-out duration-300 rounded-full' src='/github.png' alt="github icon" /></a>
+                    <a href="https://github.com/Tcaf351" target="_blank" rel="noreferrer"><motion.img 
+                    whileHover={{ scale: 1.1 }}
+                    className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-md hover:shadow-cyan-300 ease-out duration-150 rounded-full' 
+                    src='/github.png' 
+                    alt="github icon" /></a>
         
-                    <a href="https://au.linkedin.com/in/timothy-cafarella-a742731bb" target="_blank" rel="noreferrer"><img className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-md hover:shadow-cyan-300 ease-in-out duration-300 rounded-full'  src='/linkedin.png' alt="linkedin icon"></img></a>
+                    <a href="https://au.linkedin.com/in/timothy-cafarella-a742731bb" target="_blank" rel="noreferrer"><motion.img 
+                    whileHover={{ scale: 1.1 }}
+                    className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-cyan-300 ease-out duration-150 rounded-full'  
+                    src='/linkedin.png' 
+                    alt="linkedin icon" /></a>
                 </motion.div>
             </div>    
         </div>    
