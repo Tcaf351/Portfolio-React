@@ -75,11 +75,11 @@ const Hero = () => {
 
         
                     <div className='rounded-lg'>
-                        <motion.img className='rounded-lg' 
+                        <motion.img className='rounded-xl'
                                     initial={{ x: 550 }}
                                     animate={{ x: 0 }}
                                     transition={{ delay: 0.1 }}
-                                    src="./Me.png" 
+                                    src="./me.png" 
                                     alt="Timothy Cafarella" />
                     </div>
                 </div>
