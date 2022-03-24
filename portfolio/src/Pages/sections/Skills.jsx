@@ -48,6 +48,7 @@ const Skills= () => {
                                         </div>
                                     </div>
                                 <p className="text-md 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
+                                <p className="text-md 2xl:text-xl">Below is what I have experience using</p>
                             </div>
 
 
@@ -65,14 +66,14 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='h-8 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
-                                    <img className='h-9 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
-                                    <img className='h-8 lg:mx-1' src="/nextjsLogo.svg" alt="next.js logo" />
+                                    <img className='sm:h-8 lg:h-10 mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
+                                    <img className='sm:h-9 lg:h-12 sm:pt-1 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
+                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="/nextjsLogo.svg" alt="next.js logo" />
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className="h-10 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
-                                    <img className="h-10 lg:mx-1" src="/mongodbLogo.svg" alt="mongo db logo" />
+                                    <img className="sm:h-10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+                                    <img className="sm:h-10 lg:h-14 lg:mx-1" src="/mongodbLogo.svg" alt="mongo db logo" />
                                 </div>
 
                             </div>  
@@ -81,8 +82,8 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='h-4 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
-                                    <img className='h-8 lg:mx-1' src="/sassLogo.svg" alt="sass logo" />
+                                    <img className='sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="/sassLogo.svg" alt="sass logo" />
                                 </div>
 
                             </div>  
