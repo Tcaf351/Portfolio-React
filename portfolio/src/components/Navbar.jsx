@@ -5,7 +5,14 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
     return ( 
         <nav className="bg-slate-800 flex items-center justify-between py-5">
-            <h1 className="text-sky-400 text-2xl ml-28 ease-in-out duration-500 hover:text-3xl hover:text-cyan-300">Timothy Cafarella</h1>
+            
+            <div className='w-1/4 flex items-center justify-center'>
+                <div className='relative group'>
+                    <div className='absolute -inset-0.5 bg-gradient-to-r from-sky-400 to-[#5BFDB5] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
+                        <button className='relative text-gray-100 px-7 py-4 bg-black rounded-lg leading-none flex items-center'>Resume</button>
+                </div>
+            </div>
+
             <ul className="text-white mx-20 text-center flex items-center justify-between">
                 <Link to="projects"     
                         smooth={true}

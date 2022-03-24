@@ -19,41 +19,63 @@ const Projects = () => {
                 transition={{ delay: 0.2 }}
                 className="max-h-full sm:flex sm:justify-center sm:flex-col sm:items-center sm:container lg:grid lg:grid-cols-3 lg:items-start text-center">
 
-                    <div className="sm:flex sm:items-center sm:justify-center sm:my-2 xl:my-0 lg:flex lg:items-center lg:flex-col lg:justify-center">
-                        <a href="https://weather-app-pi-eight-79.vercel.app/" target="_blank" rel="noreferrer">
-                            <motion.img className="sm:h-28 lg:h-40 w-auto mx-1 rounded-lg xl:mt-5 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
+                    <div className="sm:w-full sm:flex sm:items-center sm:justify-evenly sm:my-2 md:justify-center xl:my-0 lg:flex lg:items-center lg:flex-col lg:justify-center">
+                        <div className='md:mx-3'>
+                            <a href="https://weather-app-pi-eight-79.vercel.app/" target="_blank" rel="noreferrer">
+                                <motion.img className="sm:h-28 lg:h-38 xl:h-40 w-auto mx-1 rounded-lg xl:mt-5 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
                                         whileHover={{ scale: 1.1 }}
                                         src="/weatherApp.png" 
                                         alt="weather app" /></a>
-                        <div className="pt-2">
-                            <p class="px-5">Vanilla.JS</p>
+                        </div>
+                        <div className="md:mx-3 lg:pt-2">
+                            <img className='h-8' src="/javascriptLogo.png" alt="javascript logo" />
                         </div>
                     </div>
-                    <div className="sm:my-2 sm:flex sm:items-center sm:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
-                        <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer">
-                            <motion.img 
-                                className="sm:h-28 lg:h-40 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
-                                whileHover={{ scale: 1.1 }}
-                                src="/starWarsWiki.png" 
-                                alt="star wars wiki app" /></a>
-                        <div className="pt-2">
-                            <p class="px-5">React.JS</p>
-                            <p class="px-5">Express.JS</p>
-                            <p class="px-5">Node.JS</p>
-                            <p class="px-5">Firebase</p>
-                            <p class="px-5">Tailwind CSS</p>
+
+                    <div className="sm:w-full sm:my-2 sm:flex sm:items-center sm:justify-around md:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
+                        <div>
+                            <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer">
+                                <motion.img 
+                                    className="sm:h-28 lg:h-38 xl:h-40 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
+                                    whileHover={{ scale: 1.1 }}
+                                    src="/starWarsWiki.png" 
+                                    alt="star wars wiki app" /></a>
                         </div>
+
+
+                        <div className="sm:w-1/2 sm:flex sm:flex-col sm:justify-evenly sm:items-center lg:pt-2">
+                            <div className='sm:w-1/2 sm:flex sm:items-center sm:justify-around'>
+                                <img className='h-8 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
+                         
+                                <img className='h-9 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
+                            </div>
+
+                            <div className='sm:w-full sm:flex sm:items-center sm:justify-evenly'>   
+                                <img className='h-8 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
+                                
+                                <img className="h-10 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+
+                                <img className='h-4 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+                            </div> 
+                        </div>
+
                     </div>
-                    <div className="sm:my-2 sm:flex sm:items-center sm:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
-                        <a href="https://crypto-api-mocha.vercel.app/" target="_blank" rel="noreferrer">
-                            <motion.img 
-                                className="sm:h-32 lg:h-52 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
+
+                    <div className="sm:w-full sm:my-2 sm:flex sm:items-center sm:justify-evenly md:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
+                        <div className='md:mx-3'>
+                            <a href="https://crypto-api-mocha.vercel.app/" target="_blank" rel="noreferrer">
+                                <motion.img 
+                                className="sm:h-32 lg:h-44 xl:h-52 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
                                 whileHover={{ scale: 1.1 }}
                                 src="/cryptoApi.png" 
-                                alt="" /></a>
-                        <div className="pt-2">
-                            <p class="px-5">React.JS</p>
-                            <p class="px-5">Tailwind CSS</p>
+                                alt="crypto tracker api" /></a>
+                        </div>
+                        <div className="sm:flex sm:flex-col sm:justify-center sm:items-center md:mx-3 lg:pt-2">
+                    
+                                <img className='h-8 lg:my-1' src="/reactLogo.png" alt="react Logo" />
+                            
+                                <img className='h-4 my-1 lg:my-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+                        
                         </div>
                     </div>
 
@@ -82,7 +104,6 @@ const Projects = () => {
 
         </div>
         // Projects section end
-
      );
 }
  

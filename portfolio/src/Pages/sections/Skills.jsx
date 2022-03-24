@@ -43,8 +43,8 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5 xl:text-lg">React</p> 
-                                    <p className="sm:mx-5 xl:text-lg">Svelte</p>       
+                                    <img className='h-8 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
+                                    <img className='h-9 lg:mx-1' src="/svelteLogo.png" alt="svelte.js logo" />      
                                 </div>  
                             </div> 
 
@@ -52,14 +52,14 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5 2xl:text-lg">Node.JS</p> 
-                                    <p className="sm:mx-5 2xl:text-lg">Express.JS</p> 
-                                    <p className="sm:mx-5 2xl:text-lg">Next.JS</p>
+                                    <img className='h-8 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
+                                    <img className='h-9 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
+                                    <img className='h-8 lg:mx-1' src="/nextjsLogo.svg" alt="next.js logo" />
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="pt-2 sm:mx-5 2xl:text-lg">Firebase</p>
-                                    <p className="sm:pt-2 sm:mx-5 2xl:text-lg">MongoDB</p>
+                                    <img className="h-10 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+                                    <img className="h-10 lg:mx-1" src="/mongodbLogo.svg" alt="mongo db logo" />
                                 </div>
 
                             </div>  
@@ -68,8 +68,8 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <p className="sm:mx-5 2xl:text-lg">Tailwind Css</p> 
-                                    <p className="sm:mx-5 2xl:text-lg">Sass</p>
+                                    <img className='h-4 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+                                    <img className='h-8 lg:mx-1' src="/sassLogo.svg" alt="sass logo" />
                                 </div>
 
                             </div>  

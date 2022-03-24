@@ -35,6 +35,7 @@ module.exports = {
     extend: {
       animation: {
         blob: "blob 7s infinite",
+        tilt: "tilt 10s infinite linear",
       },
 
       keyframes: {
@@ -50,6 +51,17 @@ module.exports = {
           },
           "100%": {
             transform: "translate(0px, 0px) scale(1)"
+          },
+        },
+        tilt: {
+          "0%, 50%, 100%": {
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            transform: "rotate(1deg)",
+          },
+          "75%": {
+            transform: "rotate(-1deg)",
           },
         }
       }
