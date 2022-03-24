@@ -28,7 +28,7 @@ const Projects = () => {
                                         alt="weather app" /></a>
                         </div>
                         <div className="md:mx-3 lg:pt-2">
-                            <img className='h-8' src="/javascriptLogo.png" alt="javascript logo" />
+                            <img className='sm:h-8 lg:h-10' src="/javascriptLogo.png" alt="javascript logo" />
                         </div>
                     </div>
 
@@ -45,17 +45,17 @@ const Projects = () => {
 
                         <div className="sm:w-1/2 sm:flex sm:flex-col sm:justify-evenly sm:items-center lg:pt-2">
                             <div className='sm:w-1/2 sm:flex sm:items-center sm:justify-around'>
-                                <img className='h-8 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
+                                <img className=' sm:h-8 lg:h-10 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
                          
-                                <img className='h-9 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
+                                <img className='h-12 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
                             </div>
 
                             <div className='sm:w-full sm:flex sm:items-center sm:justify-evenly'>   
-                                <img className='h-8 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
+                                <img className='sm:h-9 lg:h-11 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
                                 
-                                <img className="h-10 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+                                <img className="sm:h-10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
 
-                                <img className='h-4 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+                                <img className='sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
                             </div> 
                         </div>
 
@@ -72,9 +72,9 @@ const Projects = () => {
                         </div>
                         <div className="sm:flex sm:flex-col sm:justify-center sm:items-center md:mx-3 lg:pt-2">
                     
-                                <img className='h-8 lg:my-1' src="/reactLogo.png" alt="react Logo" />
+                                <img className='sm:h-8 lg:h-10 lg:my-1' src="/reactLogo.png" alt="react Logo" />
                             
-                                <img className='h-4 my-1 lg:my-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+                                <img className='sm:h-4 lg:h-6 my-1 lg:my-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
                         
                         </div>
                     </div>

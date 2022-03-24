@@ -28,11 +28,24 @@ const Skills= () => {
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-10'>
                                 <p className='text-md 2xl:text-xl py-2'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
-                                    <div className="sm:py-2 lg:py-4 2xl:text-xl">
-                                        <p>Firebase</p> 
-                                        <p>Express.JS</p>
-                                        <p>React.JS</p>
-                                        <p>Node.JS</p>
+                                    <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
+
+                                        <div className='flex items-center justify-center'>
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/firebaseLogo.png" alt="firebase Logo" />
+                                            <p className='text-slate-200'>Firebase</p> 
+                                        </div>
+                                        <div className='flex items-center justify-center'>
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/expressjsLogo.png" alt="express Logo" />
+                                            <p className='text-slate-200'>Express.js</p> 
+                                        </div>
+                                        <div className='flex items-center justify-center'>
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
+                                            <p className='text-slate-200'>React.js</p> 
+                                        </div>
+                                        <div className='flex items-center justify-center'>
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/nodejsLogo.png" alt="node Logo" />
+                                            <p className='text-slate-200'>Node.js</p> 
+                                        </div>
                                     </div>
                                 <p className="text-md 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
                             </div>
