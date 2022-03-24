@@ -14,17 +14,17 @@ const About = () => {
             transition={{ delay: 0.2 }}
             >
                 <div className="2xl:my-10">
-                    <p className='text-md'>My name is Tim Cafarella and I began my journey in web development in early 2020 when I came across a video from a youtuber I watched freqently at the time of a friend of his building his website. I then checked out this coders youtube and was instantly mesmorised about the endless possibilities that you have with coding, and the man things that are possible to build with enough time and dedication. It was at this point that I knew web development was my next chapter for my journey.</p>
+                    <p className='text-lg'>My name is Tim Cafarella and I began my journey in web development in early 2020 when I came across a video from a youtuber I watched freqently at the time of a friend of his building his website. I then checked out this coders youtube and was instantly mesmorised about the endless possibilities that you have with coding, and the man things that are possible to build with enough time and dedication. It was at this point that I knew web development was my next chapter for my journey.</p>
                 </div>
 
                 <div className="2xl:my-10">
-                    <p className='text-md'>I am currently looking for a junior front end developer position to take my skills and abilities to the next level.</p>
+                    <p className='text-lg'>I am currently looking for a junior front end developer position to take my skills and abilities to the next level.</p>
                 </div> 
     
                 <div className="2xl:my-10">
-                    <p className='text-md my-6'>I have completed a certificate IV of Information Technology (Web Development).</p>
-                    <p className="text-md my-6">I am currently half way through a Diploma of Information Technology (Front End Web Development) with Diploma of Information Technology (Back End Web Development).</p>
-                    <p className="text-md my-6">I will be finished with the diploma in early June.</p>
+                    <p className='text-lg my-6'>I have completed a certificate IV of Information Technology (Web Development).</p>
+                    <p className="text-lg my-6">I am currently half way through a Diploma of Information Technology (Front End Web Development) with Diploma of Information Technology (Back End Web Development).</p>
+                    <p className="text-lg my-6">I will be finished with the diploma mid June.</p>
                 </div>  
             </motion.div>    
                 

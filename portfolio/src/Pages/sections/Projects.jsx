@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         // Projects section start
         <div 
-        id="projects" className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-800 text-gray-900 flex items-center justify-center relative sm:pt-10'>
+        id="projects" className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
             <div 
@@ -53,7 +53,7 @@ const Projects = () => {
                             <div className='sm:w-full sm:flex sm:items-center sm:justify-evenly'>   
                                 <img className='sm:h-9 lg:h-11 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
                                 
-                                <img className="sm:h-10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+                                <img className="sm:10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
 
                                 <img className='sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
                             </div> 

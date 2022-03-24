@@ -1,5 +1,6 @@
 // packages
 import { Link } from 'react-scroll'
+import { motion } from 'framer-motion';
 
 
 const Navbar = () => {
@@ -17,16 +18,22 @@ const Navbar = () => {
                 <Link to="projects"     
                         smooth={true}
                         activeClass="active"
-                        ><li className="px-5 py-1 hover:text-sky-300 duration-300">Projects</li></Link>
+                        ><motion.li 
+                        whileHover={{ scale:1.3 }}
+                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Projects</motion.li></Link>
                 <Link to="skills" 
                         smooth={true}
                         activeClass="active"
-                        ><li className="px-5 py-1 hover:text-sky-300 duration-300">Skills</li></Link>
+                        ><motion.li 
+                        whileHover={{ scale:1.3 }}
+                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Skills</motion.li></Link>
                 <Link to="about" 
                         activeClass="active"
                         smooth={true}
                         duration={1000}
-                ><li className="px-5 py-1 hover:text-sky-300 duration-300">About</li></Link>
+                        ><motion.li 
+                        whileHover={{ scale:1.3 }}
+                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">About</motion.li></Link>
             </ul>
         </nav>
      );

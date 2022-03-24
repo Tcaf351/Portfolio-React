@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Skills= () => {
     return ( 
-        <div id="skills" className='min-h-screen bg-gradient-to-tr from-slate-800 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
+        <div id="skills" className='min-h-screen bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
     
    
 
@@ -35,7 +35,7 @@ const Skills= () => {
                                             <p className='text-slate-200'>Firebase</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/expressjsLogo.png" alt="express Logo" />
+                                            <img className='sm:h-8 lg:h-10 sm:pt-1 lg:mx-1' src="/expressjsLogo.png" alt="express Logo" />
                                             <p className='text-slate-200'>Express.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
@@ -48,7 +48,7 @@ const Skills= () => {
                                         </div>
                                     </div>
                                 <p className="text-md 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
-                                <p className="text-md 2xl:text-xl">Below is what I have experience using</p>
+                                <p className="text-md 2xl:text-xl sm:py-5">Below is what I have experience using</p>
                             </div>
 
 
