@@ -31,19 +31,19 @@ const Skills= () => {
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/firebaseLogo.png" alt="firebase Logo" />
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="./firebaseLogo.png" alt="firebase Logo" />
                                             <p className='text-slate-200'>Firebase</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 sm:pt-1 lg:mx-1' src="/expressjsLogo.png" alt="express Logo" />
+                                            <img className='sm:h-8 lg:h-10 sm:pt-1 lg:mx-1' src="./expressjsLogo.png" alt="express Logo" />
                                             <p className='text-slate-200'>Express.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="./reactLogo.png" alt="react Logo" />
                                             <p className='text-slate-200'>React.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="/nodejsLogo.png" alt="node Logo" />
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="./nodejsLogo.png" alt="node Logo" />
                                             <p className='text-slate-200'>Node.js</p> 
                                         </div>
                                     </div>
@@ -57,8 +57,8 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='h-8 lg:mx-1' src="/reactLogo.png" alt="react Logo" />
-                                    <img className='h-9 lg:mx-1' src="/svelteLogo.png" alt="svelte.js logo" />      
+                                    <img className='h-8 lg:mx-1' src="./reactLogo.png" alt="react Logo" />
+                                    <img className='h-9 lg:mx-1' src="./svelteLogo.png" alt="svelte.js logo" />      
                                 </div>  
                             </div> 
 
@@ -66,14 +66,14 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='sm:h-8 lg:h-10 mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
-                                    <img className='sm:h-9 lg:h-12 sm:pt-1 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
-                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="/nextjsLogo.svg" alt="next.js logo" />
+                                    <img className='sm:h-8 lg:h-10 mx-1' src="./nodeJsLogo.png" alt="node.js logo" />
+                                    <img className='sm:h-9 lg:h-12 sm:pt-1 lg:mx-1' src="./expressJsLogo.png" alt="express.js logo" />
+                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="./nextjsLogo.svg" alt="next.js logo" />
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className="sm:h-10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
-                                    <img className="sm:h-10 lg:h-14 lg:mx-1" src="/mongodbLogo.svg" alt="mongo db logo" />
+                                    <img className="sm:h-10 lg:h-12 lg:mx-1" src="./firebaseLogo.png" alt="google firebase logo" />
+                                    <img className="sm:h-10 lg:h-14 lg:mx-1" src="./mongodbLogo.svg" alt="mongo db logo" />
                                 </div>
 
                             </div>  
@@ -82,8 +82,8 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
-                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="/sassLogo.svg" alt="sass logo" />
+                                    <img className='sm:h-4 lg:h-6 lg:mx-1' src="./TailwindLogo.svg" alt="tailwind css logo" />
+                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="./sassLogo.svg" alt="sass logo" />
                                 </div>
 
                             </div>  
