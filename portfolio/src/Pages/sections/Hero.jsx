@@ -69,13 +69,13 @@ const Hero = () => {
 
                         <p className='text-sm text-gray-400 tracking-widest animate-pulse'>CSS / JavaScript / React</p>
             
-                        <motion.button whileHover={{ scale: 1.1 }} className="mt-8 py-1 px-4 rounded-lg text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"><a href="mailto:tcaf.351@gmail.com">Contact Me</a></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} className="mt-8 py-1 px-4 rounded-lg shadow-xl text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"><a href="mailto:tcaf.351@gmail.com">Contact Me</a></motion.button>
                     </motion.div>
 
 
         
                     <div className='rounded-lg'>
-                        <motion.img className='rounded-xl'
+                        <motion.img className='rounded-xl shadow-xl'
                                     initial={{ x: 550 }}
                                     animate={{ x: 0 }}
                                     transition={{ delay: 0.1 }}

@@ -18,7 +18,7 @@ const About = () => {
                 </div>
 
                 <div className="2xl:my-10">
-                    <p className='text-lg'>I am currently looking for a junior front end developer position to take my skills and abilities to the next level.</p>
+                    <p className='text-lg'>I am currently looking for an Graduate Position or a Junior Front End Developer position to take my skills and abilities to the next level.</p>
                 </div> 
     
                 <div className="2xl:my-10">
