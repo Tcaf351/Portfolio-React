@@ -35,7 +35,7 @@ const Skills= () => {
                                             <p className='text-slate-200'>Firebase</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 sm:pt-1 lg:mx-1' src="./expressjsLogo.png" alt="express Logo" />
+                                            <img className='sm:h-8 lg:h-10 sm:pt-1 lg:mx-1' src="./expressJsLogo.png" alt="express Logo" />
                                             <p className='text-slate-200'>Express.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
@@ -66,7 +66,7 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='sm:h-8 lg:h-10 mx-1' src="./nodeJsLogo.png" alt="node.js logo" />
+                                    <img className='sm:h-8 lg:h-10 mx-1' src="./nodejsLogo.png" alt="node.js logo" />
                                     <img className='sm:h-9 lg:h-12 sm:pt-1 lg:mx-1' src="./expressJsLogo.png" alt="express.js logo" />
                                     <img className='sm:h-8 lg:h-10 lg:mx-1' src="./nextjsLogo.svg" alt="next.js logo" />
                                 </div>

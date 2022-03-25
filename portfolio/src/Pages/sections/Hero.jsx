@@ -79,7 +79,7 @@ const Hero = () => {
                                     initial={{ x: 550 }}
                                     animate={{ x: 0 }}
                                     transition={{ delay: 0.1 }}
-                                    src="./me.png" 
+                                    src="./Me.png" 
                                     alt="Timothy Cafarella" />
                     </div>
                 </div>
