@@ -8,18 +8,10 @@ const Home = () => {
     return ( 
     <div>
         <Hero title="hero" />
-           
-            <div className="py-32"></div>
-                
-
+    
         <Projects title="projects" />
 
-            <div className="py-32"></div>
-            
-        
         <Skills title="skills" />
-
-            <div className="py-32"></div>
 
         <About title="about" />
     
