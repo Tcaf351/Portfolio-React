@@ -57,8 +57,8 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='h-8 lg:mx-1' src="./reactLogo.png" alt="react Logo" />
-                                    <img className='h-9 lg:mx-1' src="./svelteLogo.png" alt="svelte.js logo" />      
+                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="./reactLogo.png" alt="react Logo" />
+                                    <img className='sm:h-9 lg:h-10 lg:mx-1' src="./svelteLogo.png" alt="svelte.js logo" />      
                                 </div>  
                             </div> 
 
