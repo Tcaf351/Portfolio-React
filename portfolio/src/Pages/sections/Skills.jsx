@@ -43,7 +43,7 @@ const Skills= () => {
                                             <p className='text-slate-200'>React.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="./nodejsLogo.png" alt="node Logo" />
+                                            <img className='sm:h-8 lg:h-10 lg:mx-1' src="./nodeJsLogo.png" alt="node Logo" />
                                             <p className='text-slate-200'>Node.js</p> 
                                         </div>
                                     </div>
@@ -66,9 +66,9 @@ const Skills= () => {
                                 <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='sm:h-8 lg:h-10 mx-1' src="./nodejsLogo.png" alt="node.js logo" />
+                                    <img className='sm:h-8 lg:h-10 mx-1' src="./nodeJsLogo.png" alt="node.js logo" />
                                     <img className='sm:h-9 lg:h-12 sm:pt-1 lg:mx-1' src="./expressJsLogo.png" alt="express.js logo" />
-                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="./nextjsLogo.svg" alt="next.js logo" />
+                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="/public/nextjsLogo.svg" alt="next.js logo" />
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
