@@ -40,7 +40,7 @@ const About = () => {
             {/* top left corner of glass */}
     
             {/* circle bottom right side start */}
-            <div className='bg-cyan-300 h-64 w-64 rounded-full absolute sm:right-5 sm:bottom-8 lg:right-8 lg:bottom-2 xl:right-20 2xl:right-24 3xl:right-36 4xl:right-44 5xl:right-52 6xl:right-60 7xl:right-72 z-10'></div>
+            <div className='bg-cyan-300 h-64 w-64 rounded-full absolute sm:right-5 sm:bottom-8 lg:right-8 lg:bottom-10 xl:right-20 2xl:right-24 3xl:right-36 4xl:right-44 5xl:right-52 6xl:right-60 7xl:right-72 z-10'></div>
             {/* circle bottom right side end */}
     
             {/* circle middle left side start */}

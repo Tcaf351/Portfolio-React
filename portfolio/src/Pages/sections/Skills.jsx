@@ -54,7 +54,7 @@ const Skills= () => {
 
 
                             <div className="my-5">
-                                <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
+                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
                                     <img className='sm:h-8 lg:h-10 sm:mx-1' src="./reactLogo.png" alt="react Logo" />
@@ -63,7 +63,7 @@ const Skills= () => {
                             </div> 
 
                             <div className="my-5">
-                                <p className='sm:text-xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
+                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="sm:flex sm:items-center sm:justify-center">
                                     <img className='sm:h-8 lg:h-10 mx-1' src="./nodeJsLogo.png" alt="node.js logo" />
@@ -78,11 +78,11 @@ const Skills= () => {
                             </div>  
 
                             <div className="my-5">
-                                <p className='sm:text-xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
+                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
-                                    <img className='sm:h-4 lg:h-6 sm:mx-2' src="./TailwindLogo.svg" alt="tailwind css logo" />
-                                    <img className='sm:h-8 lg:h-10 sm:mx-1' src="./sassLogo.svg" alt="sass logo" />
+                                    <img className='sm:h-4 lg:h-5 sm:mx-2' src="./TailwindLogo.svg" alt="tailwind css logo" />
+                                    <img className='sm:h-8 lg:h-9 sm:mx-1' src="./sassLogo.svg" alt="sass logo" />
                                 </div>
 
                             </div>  
