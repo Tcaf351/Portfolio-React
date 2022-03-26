@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         // Projects section start
         <div 
-        id="projects" className='min-h-screen bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
+        id="projects" className='min-h-screen sm:py-40 lg:py-0 lg:pt-20 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
             <div 
@@ -53,7 +53,7 @@ const Projects = () => {
                             <div className='sm:w-full sm:flex sm:items-center sm:justify-evenly'>   
                                 <img className='sm:h-9 lg:h-11 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
                                 
-                                <img className="sm:10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+                                <img className="sm:h-10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
 
                                 <img className='sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
                             </div> 
@@ -91,7 +91,7 @@ const Projects = () => {
                 <motion.h1
                     whileHover={{ opacity:0 }}
 
-                className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-3 lg:-top-2 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-10 7xl:left-56 z-10'>Projects</motion.h1>
+                className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:-top-10 lg:-top-2 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-10 7xl:left-56 z-10'>Projects</motion.h1>
                 {/* top left corner of glass */}
 
                 {/* circle top right side start */}
