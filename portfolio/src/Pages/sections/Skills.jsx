@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Skills= () => {
     return ( 
-        <div id="skills" className='min-h-screen sm:py-40 lg:py-0 lg:pt-16 lg:pb-20 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
+        <div id="skills" className='min-h-screen sm:py-40 lg:py-40 lg:pb-20 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
     
    
 
@@ -68,7 +68,6 @@ const Skills= () => {
                                 <div className="sm:flex sm:items-center sm:justify-center">
                                     <img className='sm:h-8 lg:h-10 mx-1' src="./nodeJsLogo.png" alt="node.js logo" />
                                     <img className='sm:h-9 lg:h-12 sm:pt-1 lg:mx-1' src="./expressJsLogo.png" alt="express.js logo" />
-                                    <img className='sm:h-8 lg:h-10 lg:mx-1' src="/nextjsLogo.svg" alt="next.js logo" />
                                 </div>
 
                                 <div className="sm:flex sm:items-center sm:justify-center">
@@ -100,7 +99,7 @@ const Skills= () => {
             {/* top right corner of glass */}
             <motion.h1 
             whileHover={{ opacity:0 }}
-            className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-24 md:top-24 lg:-top-2 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
+            className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
             {/* top right corner of glass */}
 
         </div>

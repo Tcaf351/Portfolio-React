@@ -1,9 +1,10 @@
 // packages
-import { Link } from 'react-scroll'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import { motion } from 'framer-motion';
 
 
 const Navbar = () => {
+
     return ( 
         <nav className="bg-slate-800 flex items-center justify-between py-5">
             
@@ -20,12 +21,15 @@ const Navbar = () => {
             <ul className="text-white mx-20 text-center flex items-center justify-between">
                 <Link to="projects"     
                         smooth={true}
+                        offset={30}
                         activeClass="active"
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
                         className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Projects</motion.li></Link>
                 <Link to="skills" 
                         smooth={true}
+                        offset={88}
+                        duration={1000}
                         activeClass="active"
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
@@ -33,6 +37,7 @@ const Navbar = () => {
                 <Link to="about" 
                         activeClass="active"
                         smooth={true}
+                        offset={88}
                         duration={1000}
                         ><motion.li 
                         whileHover={{ scale:1.3 }}

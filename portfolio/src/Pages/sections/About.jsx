@@ -1,9 +1,11 @@
 // packages
 import { motion } from 'framer-motion';
+import { animateScroll as scroll } from 'react-scroll'
 
 const About = () => {
+
     return ( 
-        <div id="about" className='min-h-screen lg:py-0 lg:pt-20 lg:pb-20 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 flex items-center justify-center relative text-gray-100'>
+        <div id="about" className='min-h-screen lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 flex items-center justify-center relative text-gray-100'>
     
             {/* glass panel start */}
             <div className='bg-[#111928] rounded-xl sm:h-[80vh] lg:h-[80vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>
@@ -34,7 +36,7 @@ const About = () => {
             {/* top left corner of glass */}
             <motion.h1
             whileHover={{ opacity: 0 }}
-            className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-1 lg:-top-1 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</motion.h1>
+            className='sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute sm:top-1 md:top-1 lg:top-20 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</motion.h1>
             {/* top left corner of glass */}
     
             {/* circle bottom right side start */}
