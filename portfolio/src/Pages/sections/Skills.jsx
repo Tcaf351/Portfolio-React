@@ -83,7 +83,7 @@ const Skills= () => {
                             
                                 <div className="sm:flex sm:items-center sm:justify-center">
                                     <img className='sm:h-4 lg:h-6 sm:mx-2' src="./TailwindLogo.svg" alt="tailwind css logo" />
-                                    <img className='sm:h-8 lg:h-10 sm:mx-2' src="./sassLogo.svg" alt="sass logo" />
+                                    <img className='sm:h-8 lg:h-10 sm:mx-1' src="./sassLogo.svg" alt="sass logo" />
                                 </div>
 
                             </div>  
