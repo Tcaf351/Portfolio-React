@@ -8,7 +8,7 @@ const Navbar = () => {
     return ( 
         <nav className="bg-slate-800 flex items-center justify-between py-5">
             
-            <div className='w-1/4 flex items-center justify-center'>
+            <div className='w-1/4 flex items-center justify-center xs:pl-24 sm:pl-0'>
                 <div className='relative group'>
                     <div className='absolute -inset-0.5 bg-gradient-to-r from-sky-400 to-[#5BFDB5] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
                         <a
@@ -18,7 +18,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <ul className="text-white mx-20 text-center flex items-center justify-between">
+            <ul className="text-white mx-20 text-center flex items-center justify-between xs:flex-col sm:flex-row">
                 <Link to="projects"     
                         smooth={true}
                         offset={30}

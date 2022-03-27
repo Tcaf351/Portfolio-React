@@ -19,11 +19,11 @@ const Hero = () => {
                 </div>   
                 {/* animated blob end */}
 
-                <div className="relative flex items-center justify-around z-20 mb-10 text-left">
-                    <motion.div className='my-8 py-3'
-                                initial={{ x: -850 }}
+                <div className="relative flex items-center justify-around xs:flex-col sm:flex-row z-20 mb-10 text-left">
+                    <motion.div className='my-8 py-3 xs:px-10'
+                                initial={{ x: -1850 }}
                                 animate={{ x: 0 }}
-                                transition={{ delay: 0.1 }}
+                                transition={{ delay: 0.3 }}
                     >
                         <div className='flex'>
                             <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>H</p></motion.div>
@@ -68,26 +68,28 @@ const Hero = () => {
                         
 
                         <p className='text-sm text-gray-400 tracking-widest animate-pulse'>CSS / JavaScript / React</p>
-            
-                        <motion.button whileHover={{ scale: 1.1 }} className="mt-8 py-1 px-4 rounded-lg shadow-xl text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"><a href="mailto:tcaf.351@gmail.com">Contact Me</a></motion.button>
+
+                        <div className='xs:flex xs:items-center xs:justify-center sm:justify-start'>
+                            <motion.button whileHover={{ scale: 1.1 }} className="mt-8 py-1 px-4 rounded-lg shadow-xl text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"><a href="mailto:tcaf.351@gmail.com">Contact Me</a></motion.button>
+                        </div>
                     </motion.div>
 
 
         
                     <div className='rounded-lg'>
                         <motion.img className='rounded-xl shadow-xl'
-                                    initial={{ x: 550 }}
+                                    initial={{ x: 1550 }}
                                     animate={{ x: 0 }}
-                                    transition={{ delay: 0.1 }}
+                                    transition={{ delay: 0.3 }}
                                     src="./Me.png" 
                                     alt="Timothy Cafarella" />
                     </div>
                 </div>
     
-                <motion.div className='flex items-center justify-center z-20'
+                <motion.div className='xs:flex xs:items-center xs:justify-evenly xs:w-full sm:justify-center z-20'
                             initial={{ y: 350 }}
                             animate={{ y: 0 }}
-                            transition={{ delay: 0.1 }}
+                            transition={{ delay: 0.3 }}
                             >
                     <a href="https://github.com/Tcaf351" target="_blank" rel="noreferrer"><motion.img 
                     whileHover={{ scale: 1.1 }}
