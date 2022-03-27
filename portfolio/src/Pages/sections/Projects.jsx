@@ -18,7 +18,7 @@ const Projects = () => {
                 className="max-h-full xs:flex xs:justify-center xs:flex-col xs:items-center xs:container lg:grid lg:grid-cols-3 lg:items-start text-center">
 
                     <div className="xs:w-full xs:flex xs:items-center xs:justify-evenly xs:my-10 sm:my-12 md:justify-center xl:my-8 lg:flex lg:items-center lg:flex-col lg:justify-center">
-                        <div className='xs:my-14 sm:my-0 md:mx-3'>
+                        <div className='xs:my-5 sm:my-0 md:mx-3'>
                             <a href="https://weather-app-pi-eight-79.vercel.app/" target="_blank" rel="noreferrer">
 
                                 <motion.img className="xs:h-28 lg:h-38 xl:h-40 w-auto mx-1 rounded-lg xl:mt-5 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
@@ -32,7 +32,7 @@ const Projects = () => {
                     </div>
 
                     <div className="xs:w-full xs:my-2 xs:flex xs:items-center xs:justify-around md:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
-                        <div className='xs:my-10'>
+                        <div className='xs:my-5'>
                             <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer">
                                 <motion.img 
                                     className="xs:h-28 lg:h-38 xl:h-40 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
