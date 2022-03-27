@@ -14,6 +14,7 @@ const Navbar = () => {
                         <a
                         href='resume.pdf'
                         target="_blank"
+                        download
                         className='relative text-gray-100 px-7 py-4 bg-black rounded-lg leading-none flex items-center'>Resume</a>
                 </div>
             </div>
