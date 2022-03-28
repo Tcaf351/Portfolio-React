@@ -27,7 +27,7 @@ const Skills= () => {
 
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-10'>
-                                <p className='xs:text-xs md:text-md 2xl:text-xl pt-5'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
+                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
                                         <div className='flex items-center justify-center'>
@@ -47,8 +47,8 @@ const Skills= () => {
                                             <p className='text-slate-200'>Node.js</p> 
                                         </div>
                                     </div>
-                                <p className="xs:text-xs md:text-md 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
-                                <p className="xs:text-xs md:text-md 2xl:text-xl sm:py-5">Below is what I have experience using</p>
+                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
+                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl sm:py-5">Below is what I have experience using</p>
                             </div>
 
 
