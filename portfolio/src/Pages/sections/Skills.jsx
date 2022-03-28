@@ -48,7 +48,7 @@ const Skills= () => {
                                         </div>
                                     </div>
                                 <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
-                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl sm:py-5">Below is what I have experience using</p>
+                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl sm:py-2">Below is what I have experience using</p>
                             </div>
 
 
