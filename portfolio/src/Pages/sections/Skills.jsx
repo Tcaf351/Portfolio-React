@@ -15,9 +15,7 @@ const Skills= () => {
                
 
             {/* glass panel start */}
-                <div
-                
-                className='bg-slate-500 rounded-xl lg:h-[80vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid xs:grid-cols-1 text-center lg:mt-8'>
+                <div className='bg-slate-500 rounded-xl lg:h-[80vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid xs:grid-cols-1 text-center lg:mt-8'>
                 
                     <motion.div 
                     initial={{ opacity: 0 }}
