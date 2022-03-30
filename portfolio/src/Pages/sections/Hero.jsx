@@ -26,44 +26,44 @@ const Hero = () => {
                                 transition={{ delay: 0.3 }}
                     >
                         <div className='flex'>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>H</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>i</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>,</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>H</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>i</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>,</p></motion.div>
                         </div>
 
                         <div className='flex'>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>I</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>'</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-100'>m</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>T</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>i</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>m</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>I</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>'</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-100'>m</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>T</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>i</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-100'>m</p></motion.div>
                         </div>
 
                         <div className='flex'>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>F</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>r</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>o</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>n</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-150'>t</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>F</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>r</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>o</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>n</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-150'>t</p></motion.div>
 
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>E</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>n</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-150'>d</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>E</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>n</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-150'>d</p></motion.div>
 
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>W</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-150'>b</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>W</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 pr-2 hover:text-cyan-300 transition ease-in duration-150'>b</p></motion.div>
 
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>D</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p  className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>v</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>l</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>o</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>p</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
-                            <motion.div whileHover={{ scale: 1.4 }}><p className='text-4xl py-1 sm:pr-5 md:pr-0 hover:text-cyan-300 transition ease-in duration-150'>r</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>D</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>v</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>l</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>o</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>p</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 hover:text-cyan-300 transition ease-in duration-150'>e</p></motion.div>
+                            <motion.div whileHover={{ scale: 1.4 }}><p className='xs:text-3xl md:text-4xl py-1 sm:pr-5 md:pr-0 hover:text-cyan-300 transition ease-in duration-150'>r</p></motion.div>
                         </div>
                         
 

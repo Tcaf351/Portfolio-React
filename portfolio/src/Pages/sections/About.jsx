@@ -16,8 +16,8 @@ const About = () => {
             transition={{ delay: 0.2 }}
             >
                 <div className="2xl:my-10">
-                    <p className='xs:text-xs sm:text-lg sm:pt-5 lg:text-lg'>My name is Tim Cafarella and I began my journey in web development in early 2020. I came across a video of someone building a website for a YouTuber i watched frequently. <br /> 
-                    I then began watching more video's about coding and I was instantly mesmorised about the endless possibilities associated with coding. It was at this point that I knew web development was the next chapter for my journey.</p>
+                    <p className='xs:text-xs sm:text-lg sm:pt-5 lg:text-lg'>My name is Tim Cafarella and I began my journey in web development in early 2020. I came across a video of someone building a website for a YouTuber I watched frequently. <br /> 
+                    I then began watching more videos about coding and I was instantly mesmorised about the endless possibilities associated with coding. It was at this point that I knew web development was the next chapter for my journey.</p>
                 </div>
 
                 <div className="2xl:my-10">
@@ -27,7 +27,7 @@ const About = () => {
                 <div className="2xl:my-10">
                     <p className='xs:text-xs sm:text-lg lg:text-lg my-6'>I have completed a certificate IV of Information Technology (Web Development).</p>
                     <p className="xs:text-xs sm:text-lg lg:text-lg my-6">I am currently half way through a Diploma of Information Technology (Front End Web Development) with Diploma of Information Technology (Back End Web Development).</p>
-                    <p className="xs:text-xs sm:text-lg lg:text-lg my-6">I will be finished with the diploma mid June.</p>
+                    <p className="xs:text-xs sm:text-lg lg:text-lg my-6">I will be finished with the diploma mid June 2022.</p>
                 </div>  
             </motion.div>    
                 

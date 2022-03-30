@@ -69,7 +69,7 @@ const Projects = () => {
                                 src="/cryptoApi.png" 
                                 alt="crypto tracker api" /></a>
                         </div>
-                        <div className="sm:flex sm:flex-col sm:justify-center sm:items-center md:mx-3 lg:pt-2">
+                        <div className="xs:flex xs:flex-col xs:justify-center xs:items-center md:mx-3 lg:pt-2">
                     
                                 <img className='xs:h-6 sm:h-8 lg:h-10 lg:my-1' src="/reactLogo.png" alt="react Logo" />
                             
