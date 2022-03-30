@@ -24,8 +24,8 @@ const Skills= () => {
                     className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
 
 
-                            <div className='lg:col-span-3 sm:px-4 xl:mb-10'>
-                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5 px-2'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
+                            <div className='lg:col-span-3 sm:px-4 xl:mb-10 p-10'>
+                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5 '>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
                                         <div className='flex items-center justify-center'>
@@ -46,7 +46,7 @@ const Skills= () => {
                                         </div>
                                     </div>
                                 <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl p-2">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
-                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl sm:py-2">Below is what I have experience using</p>
+                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl xs:py-2">Below is what I have experience using</p>
                             </div>
 
 
@@ -97,7 +97,7 @@ const Skills= () => {
             {/* top right corner of glass */}
             <motion.h1 
             whileHover={{ opacity:0.5 }}
-            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-20 sm:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
+            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-10 sm:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
             {/* top right corner of glass */}
 
         </div>

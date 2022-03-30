@@ -32,7 +32,7 @@ const Projects = () => {
                     </div>
 
                     <div className="xs:w-full xs:my-2 xs:flex xs:items-center xs:justify-around md:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center">
-                        <div className='xs:my-5'>
+                        <div className='xs:my-5 xs:px-4'>
                             <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer">
                                 <motion.img 
                                     className="xs:h-28 lg:h-38 xl:h-40 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300" 
@@ -49,13 +49,16 @@ const Projects = () => {
                                 <img className='xs:h-8 lg:h-12 lg:mx-1' src="/expressJsLogo.png" alt="express.js logo" />
                             </div>
 
-                            <div className='xs:w-full xs:flex xs:items-center xs:justify-evenly'>   
-                                <img className='xs:h-7 sm:h-9 lg:h-11 lg:mx-1' src="/nodeJsLogo.png" alt="node.js logo" />
+                            <div className='xs:w-full xs:flex xs:items-center xs:justify-center'>   
+                                <img className='xs:h-7 sm:h-9 lg:h-11 lg:mx-1 xs:px-3 lg:px-8' src="/nodeJsLogo.png" alt="node.js logo" />
                                 
-                                <img className="xs:h-9 sm:h-10 lg:h-12 lg:mx-1" src="/firebaseLogo.png" alt="google firebase logo" />
+                                <img className="xs:h-9 sm:h-10 lg:h-12 lg:mx-1 xs:px-3 lg:px-8" src="/firebaseLogo.png" alt="google firebase logo" />
 
-                                <img className='xs:h-3 sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
                             </div> 
+                            <div className='xs:w-full xs:flex xs:items-center xs:justify-evenly'>
+                                <img className='xs:h-3 sm:h-4 lg:h-6 lg:mx-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
+
+                            </div>
                         </div>
 
                     </div>
