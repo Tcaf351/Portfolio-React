@@ -24,7 +24,7 @@ const Skills= () => {
                     className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
 
 
-                            <div className='lg:col-span-3 sm:px-4 xl:mb-10 p-10'>
+                            <div className='lg:col-span-3 sm:px-4 xl:mb-10 xs:p-10 lg:p-5'>
                                 <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5 '>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
@@ -45,13 +45,13 @@ const Skills= () => {
                                             <p className='text-slate-200 px-2'>Node.js</p> 
                                         </div>
                                     </div>
-                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl p-2">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
-                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl xs:py-2">Below is what I have experience using</p>
+                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl xs:p-2 sm:p-0">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
+                                <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl xs:py-2 md:py-0">Below is what I have experience using</p>
                             </div>
 
 
 
-                            <div className="my-5">
+                            <div className="xs:my-5 sm:my-0 lg:pb-10">
                                 <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
                                 
                                 <div className="xs:flex xs:items-center xs:justify-center">
@@ -60,7 +60,7 @@ const Skills= () => {
                                 </div>  
                             </div> 
 
-                            <div className="my-5">
+                            <div className="xs:my-5 sm:my-0 lg:pb-10">
                                 <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="xs:flex xs:items-center xs:justify-center">
@@ -75,7 +75,7 @@ const Skills= () => {
 
                             </div>  
 
-                            <div className="my-5">
+                            <div className="xs:my-5 sm:my-0 lg:pb-10">
                                 <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
                             
                                 <div className="xs:flex xs:items-center xs:justify-center">
