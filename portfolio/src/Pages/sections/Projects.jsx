@@ -9,31 +9,30 @@ const Projects = () => {
         id="projects" className='min-h-screen sm:py-40 lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
-            <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh] w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center overflow-hidden'>
+            <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh] xs:w-full md:w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center xs:overflow-x-visible sm:overflow-hidden'>
 
                 {/* content start */}
                 <motion.div 
-                
-                initial={{ opacity: 0, x: 1000 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ x: 1000 }}
+                whileInView={{ x: 0 }}
                 transition={{ delay: 0.3, duration: 1 }}
                 drag="x"
                 dragConstraints={{ right: 0, left: -1100 }}
-                className="h-full w-full xs:flex xs:justify-start xs:flex-col xs:items-center xs:container lg:flex-row text-center">
+                className="xs:h-1/4 lg:h-full w-full xs:flex xs:justify-start xs:flex-row xs:items-center xs:container text-center">
 
 
                 {/* project 0 start */}
-                <div className='lg:flex lg:items-center lg:justify-center lg:flex-col min-w-max lg:mx-5'>
+                <div className='xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max lg:mx-5'>
                     <div className='xs:my-5 sm:my-0 md:mx-3 '>
                         <a href="http://www.timcafarella.com" target="_blank" rel='noreferrer'>
                             <motion.img 
                             whileHover={{ scale: 1.1 }}
-                            className='rounded-lg lg:h-56 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
+                            className='rounded-lg xs:h-32 lg:h-56 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
                             src="/Portfolio.png" 
                             alt="my portfolio" />
                         </a>
                     </div>
-                        <div className='lg:flex lg:items-center lg:justify-center lg:flex-col'>
+                        <div className='xs:flex xs:items-center xs:justify-center xs:flex-col'>
                             <img className='xs:h-6 sm:h-8 lg:h-10 lg:my-1 ' src="/reactLogo.png" alt="react Logo" />
                             <img className='xs:h-3 sm:h-4 lg:h-6 my-1 lg:my-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
                         </div>
@@ -41,17 +40,17 @@ const Projects = () => {
                 {/* project 0 end */}
 
                 {/* project 1 start */}
-                <div className='lg:flex lg:items-center lg:justify-center lg:flex-col min-w-max lg:mx-5'>
+                <div className='xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max xs:mx-5'>
                     <div className='xs:my-5 sm:my-0 md:mx-3'>
                         <a href="https://pokemon-api-wheat.vercel.app/" target="_blank" rel='noreferrer'>
                             <motion.img 
                             whileHover={{ scale: 1.1 }}
-                            className='rounded-lg lg:h-56 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
+                            className='rounded-lg xs:h-32 lg:h-56 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
                             src="/pokemonApi.png" 
                             alt="pokemon app" />
                         </a>
                     </div>
-                        <div className='lg:flex lg:items-center lg:justify-center lg:flex-col'>
+                        <div className='xs:flex xs:items-center xs:justify-center xs:flex-col'>
                             <img className='xs:h-6 sm:h-8 lg:h-10 lg:my-1 ' src="/reactLogo.png" alt="react Logo" />
 
                             <img className='xs:h-3 sm:h-4 lg:h-6 my-1 lg:my-1' src="/TailwindLogo.svg" alt="tailwind css logo" />
@@ -60,11 +59,11 @@ const Projects = () => {
                 {/* project 1 end */}
 
                 {/* project 2 start */}
-                    <div className="xs:w-full xs:flex xs:items-center xs:justify-evenly xs:my-10 sm:my-12 md:justify-center lg:my-8 lg:flex lg:items-center lg:flex-col lg:justify-center min-w-max">
+                    <div className="xs:w-full xs:flex xs:items-center xs:justify-evenly xs:my-10 sm:my-12 md:justify-center lg:my-8 xs:flex-col  min-w-max">
                         <div className='xs:my-5 sm:my-0 md:mx-3'>
                             <a href="https://weather-app-pi-eight-79.vercel.app/" target="_blank" rel="noreferrer">
 
-                                <motion.img className="xs:h-28 lg:h-56 w-auto rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5" 
+                                <motion.img className="xs:h-32 lg:h-56 w-auto rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5" 
                                         whileHover={{ scale: 1.1 }}
                                         src="/weatherApp.png" 
                                         alt="weather app" /></a>
@@ -77,7 +76,7 @@ const Projects = () => {
 
 
                 {/* project 3 start */}
-                    <div className="xs:w-full xs:my-2 xs:flex xs:items-center xs:justify-around md:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center min-w-max">
+                    <div className="xs:w-full xs:my-2 xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max">
                         <div className='xs:my-5 xs:px-4'>
                             <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer">
                                 <motion.img 
@@ -112,7 +111,7 @@ const Projects = () => {
 
 
                 {/* project 4 start */}
-                    <div className="xs:w-full xs:my-20 sm:my-10 xs:flex xs:items-center xs:justify-evenly md:justify-center lg:flex lg:items-center lg:flex-col lg:justify-center min-w-max">
+                    <div className="xs:w-full xs:my-20 sm:my-10 xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max">
                         <div className='md:mx-3'>
                             <a href="https://crypto-api-mocha.vercel.app/" target="_blank" rel="noreferrer">
                                 <motion.img 
