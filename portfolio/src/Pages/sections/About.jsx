@@ -13,7 +13,7 @@ const About = () => {
             <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.5 }}
             >
                 <div className="2xl:my-10">
                     <p className='xs:text-xs sm:text-lg sm:pt-5 lg:text-lg'>My name is Tim Cafarella and I began my journey in web development in early 2020. I came across a video of someone building a website for a YouTuber I watched frequently. <br /> 

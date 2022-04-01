@@ -20,7 +20,7 @@ const Skills= () => {
                     <motion.div 
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    transition={{ delay: 0.2 }}
+                    transition={{ delay: 0.5 }}
                     className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
 
 

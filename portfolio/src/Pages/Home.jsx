@@ -5,6 +5,7 @@ import About from './sections/About';
 
 
 const Home = () => {
+
     return ( 
     <div>
         <Hero title="hero" />
