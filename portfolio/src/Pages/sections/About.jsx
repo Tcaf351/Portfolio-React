@@ -1,6 +1,5 @@
 // packages
 import { motion } from 'framer-motion';
-import { animateScroll as scroll } from 'react-scroll'
 
 const About = () => {
 

@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 
 const Projects = () => {
+    const mobile = 1350;
 
     return (
         // Projects section start
@@ -9,16 +10,16 @@ const Projects = () => {
         id="projects" className='min-h-screen sm:py-40 lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
-            <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh] xs:w-full md:w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center xs:overflow-x-visible sm:overflow-hidden'>
+            <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh]  xs:w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center xs:overflow-hidden'>
 
                 {/* content start */}
                 <motion.div 
-                initial={{ x: 1000 }}
-                whileInView={{ x: 0 }}
+                initial={{ x: 0 }}
+                whileInView={{ x: 1 }}
                 transition={{ delay: 0.3, duration: 1 }}
-                drag="x"
+                drag="x"  
                 dragConstraints={{ right: 0, left: -1100 }}
-                className="xs:h-1/4 lg:h-full w-full xs:flex xs:justify-start xs:flex-row xs:items-center xs:container text-center">
+                className="lg:h-full w-full xs:flex xs:justify-start xs:flex-row xs:items-center xs:container text-center">
 
 
                 {/* project 0 start */}
@@ -126,9 +127,8 @@ const Projects = () => {
                         </div>
                     </div>
                 {/* project 4 end */}
-
                 </motion.div>
-                {/* content end */}
+                {/* content end */} 
 
             </div>
             {/* Glass Section End */}
