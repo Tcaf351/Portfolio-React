@@ -10,7 +10,7 @@ const Projects = () => {
         id="projects" className='min-h-screen sm:py-40 lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
-            <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh]  xs:w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center xs:overflow-hidden'>
+            <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh]  xs:w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center xs:overflow-x-scroll'>
 
                 {/* content start */}
                 <motion.div 
