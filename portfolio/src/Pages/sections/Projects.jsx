@@ -14,8 +14,8 @@ const Projects = () => {
 
                 {/* content start */}
                 <motion.div 
-                initial={{ x: 0 }}
-                whileInView={{ x: 1 }}
+                initial={{ x: 250 }}
+                whileInView={{ x: 0 }}
                 transition={{ delay: 0.3, duration: 1 }}
                 drag="x"  
                 dragConstraints={{ right: 0, left: -1100 }}
