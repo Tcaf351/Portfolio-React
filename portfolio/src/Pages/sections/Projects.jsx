@@ -2,7 +2,6 @@
 import { motion } from 'framer-motion';
 
 const Projects = () => {
-    const mobile = 1350;
 
     return (
         // Projects section start
