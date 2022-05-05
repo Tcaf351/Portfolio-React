@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Skills= () => {
     return ( 
-        <div id="skills" className='min-h-screen sm:py-40 lg:py-40 lg:pb-20 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
+        <div id="skills" className='min-h-screen xs:py-36 lg:py-40 lg:pb-20 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
     
    
 
@@ -24,7 +24,7 @@ const Skills= () => {
                     className="sm:container lg:grid lg:grid-cols-3 lg:items-center text-center">
 
 
-                            <div className='lg:col-span-3 sm:px-4 xl:mb-8 xs:p-10 lg:pt-1 lg:pb-3'>
+                            <div className='lg:col-span-3 sm:px-4 xl:mb-8 xs:p-5 lg:pt-1 lg:pb-3'>
                                 <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5 '>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
@@ -99,7 +99,7 @@ const Skills= () => {
             {/* top right corner of glass */}
             <motion.h1 
             whileHover={{ opacity:0.5 }}
-            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-10 sm:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
+            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-2 sm:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
             {/* top right corner of glass */}
 
         </div>

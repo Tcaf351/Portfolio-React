@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 const About = () => {
 
     return ( 
-        <div id="about" className='min-h-screen lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 flex items-center justify-center relative text-gray-100'>
+        <div id="about" className='min-h-screen xs:py-36 lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 flex items-center justify-center relative text-gray-100'>
     
             {/* glass panel start */}
-            <div className='bg-[#111928] rounded-xl xs:h-[80vh] lg:h-[80vh] w-9/12 p-10 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>
+            <div className='bg-[#111928] rounded-xl xs:h-[80vh] w-9/12 xs:p-6 shadow-2xl shadow-cyan-800 z-20 bg-opacity-60 backdrop-blur-md flex justify-center flex-col text-center lg:mt-8'>
             
             <motion.div
             initial={{ opacity: 0 }}
@@ -15,7 +15,7 @@ const About = () => {
             transition={{ delay: 0.5 }}
             >
                 <div className="2xl:my-10">
-                    <p className='xs:text-xs sm:text-md sm:pt-5 lg:text-lg'>My name is Tim Cafarella and I began my journey in web development in early 2020. I came across a video of someone building a website for a YouTuber I watched frequently. <br /> 
+                    <p className='xs:text-xs sm:text-md xs:pt-5 lg:text-lg'>My name is Tim Cafarella and I began my journey in web development in early 2020. I came across a video of someone building a website for a YouTuber I watched frequently. <br /> 
                     I then began watching more videos about coding and I was instantly mesmorised about the endless possibilities associated with coding. It was at this point that I knew web development was the next chapter for my journey.</p>
                 </div>
 
@@ -36,7 +36,7 @@ const About = () => {
             {/* top left corner of glass */}
             <motion.h1
             whileHover={{ opacity: 0.5 }}
-            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-10 md:top-1 lg:top-20 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</motion.h1>
+            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-20 md:top-1 lg:top-20 xl:left-3 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-12 7xl:left-56 z-10'>About</motion.h1>
             {/* top left corner of glass */}
     
             {/* circle bottom right side start */}

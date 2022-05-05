@@ -5,8 +5,7 @@ const Projects = () => {
 
     return (
         // Projects section start
-        <div 
-        id="projects" className='min-h-screen sm:py-40 lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
+        <div id="projects" className='min-h-screen xs:py-36 lg:py-40 bg-gradient-to-tl from-slate-500 via-slate-600 to-slate-700 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
             <div className='bg-[#52ACE3] rounded-xl xs:h-[80vh] lg:h-[75vh]  xs:w-9/12 shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center xs:overflow-x-scroll'>
@@ -138,15 +137,15 @@ const Projects = () => {
                 <motion.h1
                     whileHover={{ opacity:0.5 }}
 
-                className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-10 sm:-top-10 lg:top-6 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-10 7xl:left-56 z-10'>Projects</motion.h1>
+                className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-20 sm:-top-10 lg:top-6 xl:left-2 2xl:left-14 4xl:left-20 5xl:left-28 6xl:left-40 6xl:top-10 7xl:left-56 z-10'>Projects</motion.h1>
                 {/* top left corner of glass */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute xs:right-8 md:right-16 lg:right-20 xl:right-24 2xl:right-40 4xl:right-48 6xl:right-64 7xl:right-80 sm:top-44 z-10'></div>
+                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute xs:right-6 md:right-16 lg:right-20 xl:right-24 2xl:right-40 4xl:right-48 6xl:right-64 7xl:right-80 xs:top-44 z-10'></div>
                 {/* circle top right side end */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5B95FD] h-40 w-40 rounded-full absolute xs:left-4 md:left-12 lg:left-20 xl:left-28 2xl:left-44 4xl:left-56 6xl:left-72 7xl:left-96 bottom-56 z-10'></div>
+                <div className='bg-[#5B95FD] h-40 w-40 rounded-full absolute xs:left-4 md:left-12 lg:left-20 xl:left-28 2xl:left-44 4xl:left-56 6xl:left-72 7xl:left-96 xs:bottom-32 md:bottom-56 z-10'></div>
                 {/* circle top right side end */}
 
         </div>

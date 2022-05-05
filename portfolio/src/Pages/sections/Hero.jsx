@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='text-gray-100'>
             
             {/* heading start */}
-            <div className='min-h-screen w-full flex flex-col justify-center sm:p-10 lg:p-24 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-400'>
+            <div className='min-h-screen w-full flex flex-col justify-center xs:p-10 lg:p-24 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-400'>
 
                 {/* animated blob start */}
                 <div className="flex items-center justify-center">
