@@ -25,24 +25,24 @@ const Skills= () => {
 
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-8 xs:p-5 lg:pt-1 lg:pb-3'>
-                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5 '>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
+                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
                                         <div className='flex items-center justify-center'>
                                             <img className='xs:h-8 lg:h-10 sm:mx-1' src="./firebaseLogo.png" alt="firebase Logo" />
-                                            <p className='text-slate-200 px-2'>Firebase</p> 
+                                            <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>Firebase</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
                                             <img className='xs:h-8 lg:h-10 sm:pt-1 sm:mx-1' src="./expressJsLogo.png" alt="express Logo" />
-                                            <p className='text-slate-200 px-2'>Express.js</p> 
+                                            <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>Express.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
                                             <img className='xs:h-8 lg:h-10 sm:mx-1' src="./reactLogo.png" alt="react Logo" />
-                                            <p className='text-slate-200 px-2'>React.js</p> 
+                                            <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>React.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
                                             <img className='xs:h-8 lg:h-10 sm:mx-1' src="./nodeJsLogo.png" alt="node Logo" />
-                                            <p className='text-slate-200 px-2'>Node.js</p> 
+                                            <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>Node.js</p> 
                                         </div>
                                     </div>
                                 <p className="xs:text-xs md:text-md lg:text-lg 2xl:text-xl xs:p-2 sm:p-0">I then use Tailwind CSS as my CSS framework of choice to truely bring out my creativity as a developer.</p>       
@@ -73,6 +73,7 @@ const Skills= () => {
                                 <div className="xs:flex xs:items-center xs:justify-center">
                                     <img className="xs:h-10 lg:h-12 xs:mx-2 lg:mx-1" src="./firebaseLogo.png" alt="google firebase logo" />
                                     <img className="xs:h-10 lg:h-14 xs:mx-2 lg:mx-1" src="./mongodbLogo.svg" alt="mongo db logo" />
+                                    <img className="xs:h-10 lg:h-14 xs:mx-2 lg:mx-1" src="./dockerLogo.png" alt="docker logo" />
                                 </div>
 
                             </div>  
@@ -99,7 +100,7 @@ const Skills= () => {
             {/* top right corner of glass */}
             <motion.h1 
             whileHover={{ opacity:0.5 }}
-            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-2 sm:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
+            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-2 xs:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
             {/* top right corner of glass */}
 
         </div>
