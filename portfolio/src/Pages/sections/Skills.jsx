@@ -52,19 +52,24 @@ const Skills= () => {
 
 
                             <div className="xs:my-5 sm:my-0 lg:pb-10">
-                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Front End</p>
+                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl pb-3 font-extrabold'>Front End</p>
                                 
+                                <div className="xs:flex xs:items-center xs:justify-center pb-5">
+                                    <img className='xs:h-8 lg:h-10 xs:mx-3 lg:mx-3' src="./html5Logo.svg" alt="html 5 Logo" />
+                                    <img className='xs:h-8 lg:h-9 xs:mx-3 lg:mx-3' src="./javascriptLogo.png" alt="javascript Logo" />
+                                </div>
+
                                 <div className="xs:flex xs:items-center xs:justify-center">
                                     <img className='xs:h-8 lg:h-10 xs:mx-3 lg:mx-3' src="./reactLogo.png" alt="react Logo" />
-                                    <img className='xs:h-9 lg:h-10 xs:mx-3 lg:mx-3' src="./svelteLogo.png" alt="svelte.js logo" />  
-                                    <img className='xs:h-9 lg:h-9 xs:mx-3 lg:mx-3' src="./typescriptLogo.svg" alt="typescript logo" />    
+                                    <img className='xs:h-9 lg:h-9 xs:mx-3 lg:mx-3' src="./typescriptLogo.svg" alt="typescript logo" />  
+                                    <img className='xs:h-9 lg:h-10 xs:mx-3 lg:mx-3' src="./svelteLogo.png" alt="svelte.js logo" />    
                                 </div>  
                             </div> 
 
                             <div className="xs:my-5 sm:my-0 lg:pb-10">
                                 <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
-                                <div className="xs:flex xs:items-center xs:justify-center">
+                                <div className="xs:flex xs:items-center xs:justify-center pb-3">
                                     <img className='xs:h-8 lg:h-10 xs:mx-2 sm:mx-1 lg:mx-3' src="./nodeJsLogo.png" alt="node.js logo" />
                                     <img className='xs:h-9 lg:h-12 xs:mx-2 sm:pt-1 lg:mx-3' src="./expressJsLogo.png" alt="express.js logo" />
                                     <img className='xs:h-9 lg:h-10 xs:mx-2 sm:pt-1 lg:mx-3' src="./nextLogo.svg" alt="" />
@@ -79,14 +84,19 @@ const Skills= () => {
                             </div>  
 
                             <div className="xs:my-5 sm:my-0 sm:pb-10 lg:pb-10">
-                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-2 font-extrabold'>CSS</p>
+                                <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>CSS</p>
                             
-                                <div className="xs:flex xs:items-center xs:justify-center">
-                                    <img className='xs:h-4 lg:h-5 xs:mx-2 sm:mx-2 lg:mx-3' src="./TailwindLogo.svg" alt="tailwind css logo" />
+                                <div className="xs:flex xs:items-center xs:justify-center pb-5">
+                                    <img className='xs:h-9 lg:h-11 xs:mx-2 sm:mx-2 lg:mx-3' src="./Css3Logo.png" alt="css 3 logo" />
                                     <img className='xs:h-8 lg:h-9 xs:mx-2 sm:mx-1 lg:mx-3' src="./sassLogo.svg" alt="sass logo" />
                                 </div>
 
-                            </div>  
+                                <div className="xs:flex xs:items-center xs:justify-center">
+                                    <img className='xs:h-4 lg:h-5 xs:mx-2 sm:mx-2 lg:mx-3' src="./TailwindLogo.svg" alt="tailwind css logo" />
+                                </div>
+                            </div>
+
+                             
 
                             
                     </motion.div>
@@ -100,7 +110,7 @@ const Skills= () => {
             {/* top right corner of glass */}
             <motion.h1 
             whileHover={{ opacity:0.5 }}
-            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-2 xs:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
+            className='xs:text-5xl sm:text-7xl lg:text-9xl text-cyan-300 opacity-20 absolute xs:top-24 md:top-24 lg:top-20 xl:right-2 2xl:right-16 4xl:right-24 5xl:right-32 6xl:right-44 6xl:top-12 7xl:right-64 z-10'>Skills</motion.h1>
             {/* top right corner of glass */}
 
         </div>

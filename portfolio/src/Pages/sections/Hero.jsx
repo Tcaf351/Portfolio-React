@@ -97,7 +97,7 @@ const Hero = () => {
                     src='/github.png' 
                     alt="github icon" /></a>
         
-                    <a href="https://au.linkedin.com/in/timothy-cafarella-a742731bb" target="_blank" rel="noreferrer"><motion.img 
+                    <a href="https://www.linkedin.com/in/timothycafarella/" target="_blank" rel="noreferrer"><motion.img 
                     whileHover={{ scale: 1.1 }}
                     className='shadow-md shadow-gray-900 h-8 w-8 sm:mx-7 md:mx-10 lg:mx-16 2xl:mx-20 hover:h-10 hover:w-10 hover:shadow-cyan-300 ease-out duration-150 rounded-full'  
                     src='/linkedin.png' 
