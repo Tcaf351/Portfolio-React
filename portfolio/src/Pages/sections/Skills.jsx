@@ -25,7 +25,7 @@ const Skills= () => {
 
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-8 xs:p-5 lg:pt-1 lg:pb-3'>
-                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5'>I have skills in Javascript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
+                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5'>I have skills in JavaScript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
                                         <div className='flex items-center justify-center'>
@@ -57,11 +57,12 @@ const Skills= () => {
                                 <div className="xs:flex xs:items-center xs:justify-center pb-5">
                                     <img className='xs:h-8 lg:h-10 xs:mx-3 lg:mx-3' src="./html5Logo.svg" alt="html 5 Logo" />
                                     <img className='xs:h-8 lg:h-9 xs:mx-3 lg:mx-3' src="./javascriptLogo.png" alt="javascript Logo" />
+                                    <img className='xs:h-9 lg:h-9 xs:mx-3 lg:mx-3' src="./typescriptLogo.svg" alt="typescript logo" /> 
                                 </div>
 
                                 <div className="xs:flex xs:items-center xs:justify-center">
                                     <img className='xs:h-8 lg:h-10 xs:mx-3 lg:mx-3' src="./reactLogo.png" alt="react Logo" />
-                                    <img className='xs:h-9 lg:h-9 xs:mx-3 lg:mx-3' src="./typescriptLogo.svg" alt="typescript logo" />  
+                                    <img className='xs:h-9 lg:h-10 xs:mx-2 sm:pt-1 lg:mx-3' src="./nextLogo.svg" alt="" /> 
                                     <img className='xs:h-9 lg:h-10 xs:mx-3 lg:mx-3' src="./svelteLogo.png" alt="svelte.js logo" />    
                                 </div>  
                             </div> 
@@ -72,11 +73,10 @@ const Skills= () => {
                                 <div className="xs:flex xs:items-center xs:justify-center pb-3">
                                     <img className='xs:h-8 lg:h-10 xs:mx-2 sm:mx-1 lg:mx-3' src="./nodeJsLogo.png" alt="node.js logo" />
                                     <img className='xs:h-9 lg:h-12 xs:mx-2 sm:pt-1 lg:mx-3' src="./expressJsLogo.png" alt="express.js logo" />
-                                    <img className='xs:h-9 lg:h-10 xs:mx-2 sm:pt-1 lg:mx-3' src="./nextLogo.svg" alt="" />
                                 </div>
 
                                 <div className="xs:flex xs:items-center xs:justify-center">
-                                    <img className="xs:h-10 lg:h-12 xs:mx-2 lg:mx-1" src="./firebaseLogo.png" alt="google firebase logo" />
+                                    <img className="xs:h-10 lg:h-14 xs:mx-2 lg:mx-1" src="./firebaseLogo.png" alt="google firebase logo" />
                                     <img className="xs:h-10 lg:h-14 xs:mx-2 lg:mx-1" src="./mongodbLogo.svg" alt="mongo db logo" />
                                     <img className="xs:h-10 lg:h-14 xs:mx-2 lg:mx-1" src="./dockerLogo.png" alt="docker logo" />
                                 </div>
