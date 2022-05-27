@@ -25,15 +25,15 @@ const Skills= () => {
 
 
                             <div className='lg:col-span-3 sm:px-4 xl:mb-8 xs:p-5 lg:pt-1 lg:pb-3'>
-                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5'>I have skills in JavaScript using the <span className="font-extrabold">"FERN"</span> stack which consists of</p>
+                                <p className='xs:text-xs md:text-md lg:text-lg 2xl:text-xl pt-5'>I have skills in JavaScript using the <span className="font-extrabold">"MERN"</span> stack which consists of</p>
                                     <div className="sm:py-2 lg:py-4 2xl:text-xl flex items-center flex-col justify-center">
 
                                         <div className='flex items-center justify-center'>
-                                            <img className='xs:h-8 lg:h-10 sm:mx-1' src="./firebaseLogo.png" alt="firebase Logo" />
-                                            <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>Firebase</p> 
+                                            <img className='xs:h-8 lg:h-12 sm:mx-1' src="./mongodbLogo.svg" alt="mongodb Logo" />
+                                            <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>MongoDB</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
-                                            <img className='xs:h-8 lg:h-10 sm:pt-1 sm:mx-1' src="./expressJsLogo.png" alt="express Logo" />
+                                            <img className='xs:h-8 lg:h-11 sm:pt-1 sm:mx-1' src="./expressJsLogo.png" alt="express Logo" />
                                             <p className='text-slate-200 xs:text-xs md:text-md lg:text-lg 2xl:text-xl px-2'>Express.js</p> 
                                         </div>
                                         <div className='flex items-center justify-center'>
