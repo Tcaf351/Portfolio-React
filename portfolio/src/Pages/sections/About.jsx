@@ -25,8 +25,7 @@ const About = () => {
     
                 <div className="2xl:my-10">
                     <p className='xs:text-xs sm:text-md lg:text-lg my-6'>I have completed a certificate IV of Information Technology (Web Development).</p>
-                    <p className="xs:text-xs sm:text-md lg:text-lg my-6">I am currently half way through a Diploma of Information Technology (Front End Web Development) with Diploma of Information Technology (Back End Web Development).</p>
-                    <p className="xs:text-xs sm:text-md lg:text-lg my-6">I will be finished with the diploma mid June 2022.</p>
+                    <p className="xs:text-xs sm:text-md lg:text-lg my-6">I have completed a Diploma of Information Technology (Front End Web Development) with a Diploma of Information Technology (Back End Web Development).</p>
                 </div>  
             </motion.div>    
                 
