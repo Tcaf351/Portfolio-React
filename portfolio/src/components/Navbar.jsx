@@ -23,6 +23,7 @@ const Navbar = () => {
                 <Link to="projects"     
                         smooth={true}
                         offset={30}
+                        duration={750}
                         activeClass="active"
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
@@ -30,16 +31,16 @@ const Navbar = () => {
                 <Link to="skills" 
                         smooth={true}
                         offset={88}
-                        duration={1000}
+                        duration={750}
                         activeClass="active"
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
                         className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Skills</motion.li></Link>
                 <Link to="about" 
-                        activeClass="active"
                         smooth={true}
                         offset={88}
-                        duration={1000}
+                        activeClass="active"
+                        duration={750}
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
                         className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">About</motion.li></Link>

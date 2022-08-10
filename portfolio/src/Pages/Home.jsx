@@ -7,16 +7,14 @@ import About from './sections/About';
 const Home = () => {
 
     return ( 
-    <div>
-        <Hero title="hero" />
-    
-        <Projects title="projects" />
+        <div>
+            <Hero title="hero" />
+        
+            <Projects title="projects" />
 
-        <Skills title="skills" />
+            <Skills title="skills" />
 
-        <About title="about" />
-    
-    
+            <About title="about" />
         </div>
     );
 }

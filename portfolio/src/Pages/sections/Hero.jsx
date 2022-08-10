@@ -69,7 +69,7 @@ const Hero = () => {
                         </div>
                         
 
-                        <p className='text-sm text-gray-400 tracking-widest animate-pulse'>CSS / JavaScript / React</p>
+                        <p className='text-sm text-gray-400 tracking-widest animate-pulse'>JavaScript / React.js / Node.js</p>
 
                         <div className='xs:flex xs:items-center xs:justify-center sm:justify-start'>
                             <motion.button whileHover={{ scale: 1.1 }} className="mt-8 py-1 px-4 rounded-lg shadow-xl text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"><a href="mailto:tcaf.351@gmail.com">Contact Me</a></motion.button>
