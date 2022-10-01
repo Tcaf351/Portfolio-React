@@ -62,7 +62,7 @@ const Skills= () => {
 
                                 <div className="xs:flex xs:items-center xs:justify-center">
                                     <img className='xs:h-8 lg:h-10 xs:mx-3 lg:mx-3' src="./reactLogo.png" alt="react Logo" />
-                                    <img className='xs:h-9 lg:h-10 xs:mx-3 lg:mx-3' src="./svelteLogo.png" alt="svelte.js logo" />    
+                                    {/* <img className='xs:h-9 lg:h-10 xs:mx-3 lg:mx-3' src="./svelteLogo.png" alt="svelte.js logo" /> */}
                                 </div>  
                             </div> 
 
@@ -70,9 +70,10 @@ const Skills= () => {
                                 <p className='sm:text-xl lg:text-2xl 2xl:text-3xl py-3 font-extrabold'>Back End</p> 
                                 
                                 <div className="xs:flex xs:items-center xs:justify-center pb-3">
-                                    <img className='xs:h-8 lg:h-10 xs:mx-2 sm:mx-1 lg:mx-3' src="./nodeJsLogo.png" alt="node.js logo" />
+                                    <img className='xs:h-8 lg:h-11 xs:mx-2 sm:mx-1 lg:mx-3' src="./nodeJsLogo.png" alt="node.js logo" />
                                     <img className='xs:h-9 lg:h-12 xs:mx-2 sm:pt-1 lg:mx-3' src="./expressJsLogo.png" alt="express.js logo" />
-                                    <img className='xs:h-9 lg:h-10 xs:mx-2 sm:pt-1 lg:mx-3' src="./nextLogo.svg" alt="" /> 
+                                    <img className='xs:h-9 lg:h-11 xs:mx-2 sm:pt-1 lg:mx-3' src="./nextLogo.svg" alt="next.js logo" />
+                                    <img className='xs:h-9 lg:h-12 xs:mx-2 sm:pt-1 lg:mx-3' src="./pythonLogo.svg" alt="python logo" />
                                 </div>
 
                                 <div className="xs:flex xs:items-center xs:justify-center">
