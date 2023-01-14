@@ -8,26 +8,26 @@ const Projects = () => {
         <div id="projects" className='min-h-screen xs:py-36 lg:py-40 bg-slate-800 text-gray-900 flex items-center justify-center relative sm:pt-10'>
     
             {/* Glass Section Start */}
-            <div className='bg-[#52ACE3] rounded-xl xs:h-screen xs:w-[90%] shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center'>
+            <div className='bg-[#52ACE3] rounded-xl xs:max-h-full xs:w-[90%] xl:h-[80vh] shadow-2xl shadow-blue-300 z-20 bg-opacity-60 backdrop-blur-lg text-gray-100 relative xs:flex xs:items-center xs:justify-center'>
 
             {/* content start */}
-            <div className="lg:h-full lg:w-full lg:grid lg:gap-4 lg:grid-rows-2 lg:grid-cols-3 text-center">
+            <div className="xs:max-h-full xs:w-[90%] lg:h-full lg:w-full sm:grid xs:gap-6 lg:gap-4 grid-rows-2 xs:grid-cols-2 lg:grid-cols-3 text-center">
 
 
                 {/* project 0 start */}
                 <div className='xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max xs:mx-2'>
-                    <div className='xs:my-5 sm:my-0 md:mx-3'>
+                    <div className='xs:my-5 sm:my-4 lg:my-0 md:mx-3'>
                         <a href="https://pokemon-api-wheat.vercel.app/" target="_blank" rel='noreferrer'>
                             <motion.img 
                             whileHover={{ scale: 1.1 }}
-                            className='rounded-lg xs:h-32 lg:h-52 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
+                            className='rounded-lg xs:h-32 lg:h-36 xl:h-52 4xl:h-80 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
                             src="/pokemonApi.png" 
                             alt="pokemon app" />
                         </a>
                     </div>
                     <div>
                         <a href="https://github.com/Tcaf351/pokemon-Api" 
-                            className="mt-8 py-1 px-4 rounded-lg shadow-xl text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"
+                            className="xs:mt-2 lg:mt-8 py-1 px-4 rounded-lg shadow-xl text-gray-100 bg-cyan-500 ease-out duration-300 hover:bg-blue-500"
                             target="_blank" 
                             rel='noreferrer'>Github</a>
                     </div>
@@ -41,11 +41,11 @@ const Projects = () => {
 
                 {/* project 1 start */}
                 <div className='xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max xs:mx-2'>
-                    <div className='xs:my-5 sm:my-0 md:mx-3'>
+                    <div className='xs:my-5 sm:my-4 lg:my-0 md:mx-3'>
                         <a href="https://next-js-weather-app-wine.vercel.app/" target="_blank" rel='noreferrer'>
                             <motion.img 
                             whileHover={{ scale: 1.1 }}
-                            className='rounded-lg xs:h-32 lg:h-52 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
+                            className='rounded-lg xs:h-32 lg:h-36 xl:h-52 4xl:h-80 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
                             src="/weatherAppNext.png" 
                             alt="next.js weather app" />
                         </a>
@@ -66,11 +66,11 @@ const Projects = () => {
 
                 {/* project 2 start */}
                 <div className='xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max lg:mx-2'>
-                    <div className='xs:my-5 sm:my-0 md:mx-3 '>
+                    <div className='xs:my-5 sm:my-4 lg:my-0 md:mx-3 '>
                         <a href="http://www.timcafarella.com" target="_blank" rel='noreferrer'>
                             <motion.img 
                             whileHover={{ scale: 1.1 }}
-                            className='rounded-lg xs:h-32 lg:h-52 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
+                            className='rounded-lg xs:h-32 lg:h-36 xl:h-52 4xl:h-80 hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5' 
                             src="/Portfolio.png" 
                             alt="my portfolio" />
                         </a>
@@ -90,9 +90,9 @@ const Projects = () => {
 
                 {/* project 3 start */}
                     <div className="xs:w-full xs:flex xs:items-center xs:justify-center xs:my-10 sm:my-12 md:justify-center lg:my-8 xs:flex-col min-w-max">
-                        <div className='xs:my-5 sm:my-0 md:mx-3'>
+                        <div className='xs:my-5 sm:my-4 lg:my-0 md:mx-3'>
                             <a href="https://weather-app-pi-eight-79.vercel.app/" target="_blank" rel="noreferrer">
-                                <motion.img className="xs:h-32 lg:h-52 w-auto rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5" 
+                                <motion.img className="xs:h-32 lg:h-36 xl:h-52 4xl:h-80 w-auto rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5" 
                                         whileHover={{ scale: 1.1 }}
                                         src="/weatherApp.png" 
                                         alt="weather app" /></a>
@@ -112,10 +112,10 @@ const Projects = () => {
 
                 {/* project 4 start */}
                     <div className="xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max xs:mx-2">
-                        <div className='xs:my-5 sm:my-0 md:mx-3'> 
+                        <div className='xs:my-5 sm:my-4 lg:my-0  md:mx-3'> 
                             <a href="https://github.com/Tcaf351/starWarsWiki" target="_blank" rel="noreferrer">
                                 <motion.img 
-                                    className="xs:h-32 lg:h-52 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5"  
+                                    className="xs:h-32 lg:h-36 xl:h-52 4xl:h-80 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5"  
                                     whileHover={{ scale: 1.1 }}
                                     src="/starWarsWiki.png" 
                                     alt="star wars wiki app" /></a>
@@ -153,10 +153,10 @@ const Projects = () => {
 
                 {/* project 5 start */}
                     <div className="xs:w-full xs:my-20 sm:my-10 xs:flex xs:items-center xs:justify-center xs:flex-col min-w-max">
-                        <div className='md:mx-3'>
+                        <div className='xs:my-5 sm:my-4 lg:my-0 md:mx-3'>
                             <a href="https://crypto-api-mocha.vercel.app/" target="_blank" rel="noreferrer">
                                 <motion.img 
-                                className="xs:h-32 lg:h-52 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5" 
+                                className="xs:h-32 lg:h-36 xl:h-52 4xl:h-80 w-auto mx-1 rounded-lg hover:shadow-lg hover:shadow-gray-900 transition ease-out duration-300 lg:mb-5" 
                                 whileHover={{ scale: 1.1 }}
                                 src="/cryptoApi.png" 
                                 alt="crypto tracker api" /></a>
@@ -189,11 +189,11 @@ const Projects = () => {
                 {/* top left corner of glass */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute xs:right-6 md:right-20 lg:right-24 xl:right-4 2xl:right-40 4xl:right-48 6xl:right-64 7xl:right-80 xs:top-44 z-10'></div>
+                <div className='bg-[#5BFDB5] h-60 w-60 rounded-full absolute xs:right-6 md:right-20 lg:right-24 xl:right-4 2xl:right-2 4xl:right-4 6xl:right-12 7xl:right-14 xs:top-44 z-10'></div>
                 {/* circle top right side end */}
 
                 {/* circle top right side start */}
-                <div className='bg-[#5B95FD] h-40 w-40 rounded-full absolute xs:left-4 md:left-12 lg:left-32 xl:left-2 2xl:left-44 4xl:left-56 6xl:left-72 7xl:left-96 xs:bottom-32 md:bottom-56 z-10'></div>
+                <div className='bg-[#5B95FD] h-40 w-40 rounded-full absolute xs:left-4 md:left-12 lg:left-32 xl:left-2 2xl:left-2 4xl:left-4 6xl:left-12 7xl:left-14 xs:bottom-32 md:bottom-56 z-10'></div>
                 {/* circle top right side end */}
 
         </div>
