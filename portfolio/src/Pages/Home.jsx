@@ -1,7 +1,7 @@
 import Hero from './sections/Hero';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
-import About from './sections/About';
+// import About from './sections/About';
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 
             <Skills title="skills" />
 
-            <About title="about" />
+            {/* <About title="about" /> */}
         </div>
     );
 }

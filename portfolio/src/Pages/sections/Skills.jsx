@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Skills= () => {
     return ( 
-        <div id="skills" className='min-h-screen xs:py-36 lg:py-40 lg:pb-20 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-500 flex items-center justify-center relative text-gray-100'>
+        <div id="skills" className='min-h-screen xs:py-36 lg:py-40 lg:pb-20 bg-gradient-to-tr from-slate-700 via-slate-600 to-slate-400 flex items-center justify-center relative text-gray-100'>
     
    
 
@@ -15,7 +15,7 @@ const Skills= () => {
                
 
             {/* glass panel start */}
-                <div className='bg-slate-500 rounded-xl lg:h-[80vh] w-9/12 shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid xs:grid-cols-1 text-center lg:mt-8'>
+                <div className='bg-slate-500 rounded-xl lg:h-[80vh] xs:w-[90%] shadow-2xl shadow-cyan-400 z-20 bg-opacity-40 backdrop-blur-md grid xs:grid-cols-1 text-center lg:mt-8'>
                 
                     <motion.div 
                     initial={{ opacity: 0 }}
