@@ -27,7 +27,8 @@ const Navbar = () => {
                         activeClass="active"
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
-                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Projects</motion.li></Link>
+                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Projects</motion.li>
+                </Link>
                 <Link to="skills" 
                         smooth={true}
                         offset={88}
@@ -35,15 +36,17 @@ const Navbar = () => {
                         activeClass="active"
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
-                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Skills</motion.li></Link>
-                <Link to="about" 
+                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">Skills</motion.li>
+                </Link>
+                {/* <Link to="about" 
                         smooth={true}
                         offset={88}
                         activeClass="active"
                         duration={750}
                         ><motion.li 
                         whileHover={{ scale:1.3 }}
-                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">About</motion.li></Link>
+                        className="px-5 py-1 cursor-pointer hover:underline hover:decoration-cyan-300 hover:text-sky-300">About</motion.li>
+                </Link> */}
             </ul>
         </nav>
      );
